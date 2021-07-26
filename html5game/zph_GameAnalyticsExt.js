@@ -162,5 +162,6 @@ function onStop() {
 }
 
 function onResume() {
+  console.log("onResume");
   gameanalytics.GameAnalytics.onResume();
 }

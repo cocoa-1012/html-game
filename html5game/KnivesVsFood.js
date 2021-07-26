@@ -7024,7 +7024,7 @@ function _G5(_ee, _fe, _ge) {
             _se(_se(global._Jd)._0q)._ye = _z1(_ee, _fe, _se(global._Jd)._0q, _o1(_ee, _fe, 2, -180, 4), _o1(_ee, _fe, 3, 340, 4));
             _D5(_ee, _fe, 10);
             _D5(_ee, _fe, -10);
-            _F5(_ee, _fe, 200);
+            _F5(_ee, _fe, 2000);
             _F5(_ee, _fe, 160);
             _H5(_ee, _fe, 10);
             break;
@@ -7067,7 +7067,7 @@ function _G5(_ee, _fe, _ge) {
             _F5(_ee, _fe, 120);
             _D5(_ee, _fe, 180);
             _D5(_ee, _fe, 160);
-            _D5(_ee, _fe, 200);
+            _D5(_ee, _fe, 2000);
             _F5(_ee, _fe, 0);
             _D5(_ee, _fe, 60);
             _D5(_ee, _fe, 40);
@@ -7189,7 +7189,7 @@ function _G5(_ee, _fe, _ge) {
             _F5(_ee, _fe, 120);
             break;
         case 13:
-            _se(_se(global._Jd)._0q)._ye = _z1(_ee, _fe, _se(global._Jd)._0q, _o1(_ee, _fe, 2, -300, 4), _o1(_ee, _fe, 2, 200, 4));
+            _se(_se(global._Jd)._0q)._ye = _z1(_ee, _fe, _se(global._Jd)._0q, _o1(_ee, _fe, 2, -300, 4), _o1(_ee, _fe, 2, 2000, 4));
             _H5(_ee, _fe, 13);
             _D5(_ee, _fe, 80);
             _D5(_ee, _fe, 60);
@@ -7226,7 +7226,7 @@ function _G5(_ee, _fe, _ge) {
             break;
         case 4:
             _se(_se(global._Jd)._0q)._ye = _z1(_ee, _fe, _se(global._Jd)._0q, _o1(_ee, _fe, 4, -360, 4), _o1(_ee, _fe, 3, 260, 4));
-            _F5(_ee, _fe, 200);
+            _F5(_ee, _fe, 2000);
             _F5(_ee, _fe, 180);
             _F5(_ee, _fe, 160);
             _H5(_ee, _fe, 10);
@@ -7234,14 +7234,14 @@ function _G5(_ee, _fe, _ge) {
         case 5:
             _se(_se(global._Jd)._0q)._ye = _z1(_ee, _fe, _se(global._Jd)._0q, _o1(_ee, _fe, 4, -360, 4));
             _D5(_ee, _fe, 0);
-            _F5(_ee, _fe, 200);
+            _F5(_ee, _fe, 2000);
             _F5(_ee, _fe, 180);
             _F5(_ee, _fe, 160);
             _H5(_ee, _fe, 10);
             break;
         case 6:
             _se(_se(global._Jd)._0q)._ye = _z1(_ee, _fe, _se(global._Jd)._0q, _o1(_ee, _fe, 4, -660, 4));
-            _F5(_ee, _fe, 200);
+            _F5(_ee, _fe, 2000);
             _F5(_ee, _fe, 170);
             _F5(_ee, _fe, 20);
             _F5(_ee, _fe, -10);
@@ -7264,7 +7264,7 @@ function _G5(_ee, _fe, _ge) {
             break;
         case 9:
             _se(_se(global._Jd)._0q)._ye = _z1(_ee, _fe, _se(global._Jd)._0q, _o1(_ee, _fe, 5, -560, 4));
-            _F5(_ee, _fe, 200);
+            _F5(_ee, _fe, 2000);
             _F5(_ee, _fe, 160);
             _F5(_ee, _fe, 20);
             _F5(_ee, _fe, -20);
@@ -7447,7 +7447,7 @@ function _O5(_ee, _fe) {
         }
     } else {
         {
-            _J5(_ee, _fe, 0, 200, _se(_Qq)._uj, 0.4, 0 * _K2(_ee, _fe, -15, 15), 16777215, 1, 0, 0);
+            _J5(_ee, _fe, 0, 2000, _se(_Qq)._uj, 0.4, 0 * _K2(_ee, _fe, -15, 15), 16777215, 1, 0, 0);
             _D3(_ee, _fe, "powerup started: " + _se(_Qq)._uj);
             _se(_Qq)._Zq = 1 ? 1 : 0;
             return _Qq;
@@ -7514,7 +7514,7 @@ function _S5(_ee, _fe) {
     _R5(_ee, _fe, 38, 50, 0.43, 0.8);
     _R5(_ee, _fe, 44, 100, 0.4, 1);
     _R5(_ee, _fe, 37, 150, 0.46, 1);
-    _R5(_ee, _fe, 42, 200, 0.41, 1);
+    _R5(_ee, _fe, 42, 2000, 0.41, 1);
 }
 function _T5(_ee, _fe, _ge) {
     return _se(global._Nd)._4r[~~_ge];
@@ -8750,7 +8750,7 @@ function _97(_ee, _fe) {
                 {
                     _e2(_ee, _fe, 1, 0, 1);
                     _ih(_ee, 5, 0, global._dd / 2, global._fd / 2);
-                    _V2(_ee, _fe, "Please turn your device", global._dd / 2, global._fd / 2 + 200, 730, 120, 0.75, 1, 1, 16777215, _ee._ik, _ee._Pe);
+                    _V2(_ee, _fe, "Please turn your device", global._dd / 2, global._fd / 2 + 2000, 730, 120, 0.75, 1, 1, 16777215, _ee._ik, _ee._Pe);
                 }
             }
         }
@@ -10454,7 +10454,7 @@ function _c8(_ee, _fe) {
                 }
             }
         }
-        var _Iv = 200;
+        var _Iv = 2000;
         if (_ee._Fv > 0.5) {
             {
                 if (_ee.x < _se(global._Tc)._cl - _Iv || _ee.x > _se(global._Tc)._fr + _Iv || _ee.y < _se(global._Tc)._dl - _Iv || _ee.y > _se(global._Tc)._gr + _Iv) {
@@ -11236,7 +11236,7 @@ function _L8(_ee, _fe) {
     {
         _H2(_ee, _fe);
         _S5(_ee, _fe);
-        _ee._Mm = 200;
+        _ee._Mm = 2000;
         _ee.__w = _Aj("introTotalTimeMS", 0);
         _ee._kq = _Aj("outroTotalTimeMS", 500);
         _ee._0x = -1;
@@ -11389,8 +11389,8 @@ function _X8(_ee, _fe) {
                 _se(_ee._0q)._ux = _ee._7x;
                 var _vx = _se(_ee._0q).x;
                 var _wx = _se(_ee._0q).y + _se(_ee._0q)._Re;
-                _B5(_ee, _fe, _vx, _wx, 69, _K2(_ee, _fe, 200, 700), 90 + _K2(_ee, _fe, -90, 90));
-                _B5(_ee, _fe, _vx, _wx, 69, _K2(_ee, _fe, 200, 700), 90 + _K2(_ee, _fe, -90, 90));
+                _B5(_ee, _fe, _vx, _wx, 69, _K2(_ee, _fe, 2000, 700), 90 + _K2(_ee, _fe, -90, 90));
+                _B5(_ee, _fe, _vx, _wx, 69, _K2(_ee, _fe, 2000, 700), 90 + _K2(_ee, _fe, -90, 90));
                 if (_H1(_ee, _fe, 45) > 0.5) {
                     _B5(_ee, _fe, _vx + _K2(_ee, _fe, -150, 150), _wx + _K2(_ee, _fe, -100, 100), 70, 0, 0);
                 }
@@ -20636,7 +20636,7 @@ function _g51(_bG, _451, _951, _a51, _T41, _o51, _Z41) {
     };
     if (_o51) {
         _T41.onload = function (_6Z) {
-            _q51(_6Z, _T41, 200);
+            _q51(_6Z, _T41, 2000);
         };
     } else {
         _T41.onload = function (_6Z) {};
