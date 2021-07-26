@@ -1721,7 +1721,6 @@ function _Pc() {
     global._de = 0;
 }
 function _g1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
-
     if (!(_D2(_ee, _fe, _ge) > 0.5)) {
         return 1;
     }
@@ -2334,7 +2333,6 @@ function _B1(_ee, _fe, _ge) {
     return 0;
 }
 function _C1(_ee, _fe, _ge) {
-    //console.log("Func_Pc");
     if (_xf(_ge) > 0.5) {
         {
             {
@@ -2369,7 +2367,6 @@ function _C1(_ee, _fe, _ge) {
     return 0;
 }
 function _D1(_ee, _fe, _ge) {
-    //console.log("Func_Pc");
     {
         var _Ef = _me(5);
         for (var _Ff in _Ef) {
@@ -2385,7 +2382,6 @@ function _D1(_ee, _fe, _ge) {
     return -1;
 }
 function _E1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
-    //console.log("Func_000c");
     var _Hf = _he / _ie;
     switch (_ge) {
         case 0:
@@ -2492,7 +2488,6 @@ function _E1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
     }
 }
 function _F1(_ee, _fe, _ge, _he, _ie) {
-    //console.log("Func_000c");
     var _Nf;
     var _If = sin(_Of(-_se(_ge)._ef));
     var _Pf = cos(_Of(-_se(_ge)._ef));
@@ -2508,7 +2503,6 @@ function _F1(_ee, _fe, _ge, _he, _ie) {
     return _Nf;
 }
 function _G1(_ee, _fe, _ge, _he, _ie, _je) {
-    //console.log("Func_000c");
     var _kf = _se(_ge).x - _se(_he).x;
     var _lf = _se(_ge).y - _se(_he).y;
     var _Qf = _kf * _kf + _lf * _lf;
@@ -2519,27 +2513,22 @@ function _G1(_ee, _fe, _ge, _he, _ie, _je) {
     }
 }
 function _H1(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     return random(1) < _ge / 100;
 }
 function _I1(_ee, _fe, _ge, _he, _ie) {
-    //console.log("Func_000c");
     _ee._Rf(_Sf(_ee.x, _ge, _ie));
     _ee._Tf(_Sf(_ee.y, _he, _ie));
     return _ie;
 }
 function _J1(_ee, _fe, _ge, _he, _ie) {
-    //console.log("Func_000c");
     _ee._te(_Sf(_ee._Fe, _ge, _ie));
     _ee._ve(_Sf(_ee._Ge, _he, _ie));
     return _ie;
 }
 function _K1(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     return !((_ge & 1) > 0.5);
 }
 function _L1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
-    //console.log("Func_000c");
     var _Hf = _he / _ie;
     switch (_ge) {
         case 0:
@@ -2646,11 +2635,9 @@ function _L1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
     }
 }
 function _M1(_ee, _fe) {
-    //console.log("Func_000c");
     return random(1) > 0.5;
 }
 function _N1(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     var _Uf = _ge;
     var _Vf = 1;
     for (_Vf = 1; _Uf >= 10; _Vf++) {
@@ -2661,7 +2648,6 @@ function _N1(_ee, _fe, _ge) {
     return _Vf;
 }
 function _O1(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne) {
-    //console.log("Func_000c");
     var _Wf;
     if (!(_Wf instanceof Array)) {
         _Wf = [];
@@ -2686,11 +2672,9 @@ function _O1(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne) {
     return _Wf;
 }
 function _P1(_ee, _fe, _ge, _he) {
-    //console.log("Func_000c");
     return -_2g(_3g(_he, _ge));
 }
 function _Q1(_ee, _fe, _ge, _he) {
-    //console.log("Func_000c");
     if (_ge > _ee._4g()) {
         return 0;
     }
@@ -2706,17 +2690,14 @@ function _Q1(_ee, _fe, _ge, _he) {
     return 1;
 }
 function _R1(_ee, _fe, _ge, _he) {
-    //console.log("Func_000c");
     var _8g = _9g(_ee.x, _ee.y, _se(_ge).x, _se(_ge).y);
     _ee._ag(_ee._ef - _bg(_ee._ef, _8g) * _he);
 }
 function _S1(_ee, _fe, _ge, _he, _ie) {
-    //console.log("Func_000c");
     var _8g = _9g(_ee.x, _ee.y, _ge, _he);
     _ee._ag(_ee._ef - _bg(_ee._ef, _8g) * _ie);
 }
 function _T1(_ee, _fe) {
-    //console.log("Func_000c");
     var _Qf;
     if (_T1.arguments.length - 2 > 3) {
         _Qf = _cg(_T1.arguments[2 + 2], _T1.arguments[2 + 3]);
@@ -2750,11 +2731,9 @@ function _T1(_ee, _fe) {
     return _eg;
 }
 function _U1(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     return _hg(_ge);
 }
 function _V1(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     var _ig = 0;
     var _jg = 0;
     var _kg = "";
@@ -2786,7 +2765,6 @@ function _V1(_ee, _fe, _ge) {
     }
 }
 function _W1(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     var _qg = _tf(_ge);
     var _rg = "";
     var _Pf = 0;
@@ -2804,7 +2782,6 @@ function _W1(_ee, _fe, _ge) {
     return _rg;
 }
 function _X1(_ee, _fe, _ge, _he, _ie) {
-    //console.log("Func_000c");
     {
         var _rg, _tg, _ug, _vg, _wg, _xg;
         _rg = _ge;
@@ -2834,7 +2811,6 @@ function _X1(_ee, _fe, _ge, _he, _ie) {
     }
 }
 function _Y1(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     var _Cg = _ge;
     var _Nf = "";
     var _Dg = "";
@@ -2857,7 +2833,6 @@ function _Y1(_ee, _fe, _ge) {
     return _Nf;
 }
 function _Z1(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     if (_Gg() == 1) {
         {
             _Hg(_ge);
@@ -2912,7 +2887,6 @@ function _Z1(_ee, _fe, _ge) {
     }
 }
 function __1(_ee, _fe, _ge, _he) {
-    //console.log("Func_000c");
     if (_se(global._1d)._Og > 0.5) {
         {
             if (_Gg() == 1) {
@@ -2985,7 +2959,6 @@ function __1(_ee, _fe, _ge, _he) {
     }
 }
 function _02(_ee, _fe) {
-    //console.log("Func_000c");
     if (_se(global._Sc)._Vg != -1) {
         {
             if (_Gg() == 1) {
@@ -3002,7 +2975,6 @@ function _02(_ee, _fe) {
     _se(global._Sc)._Vg = -1;
 }
 function _12(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     if (_se(global._Sc)._Vg != -1 && _se(global._Sc)._Vg != _ge) {
         {
             if (_Gg() == 1) {
@@ -3044,7 +3016,6 @@ function _12(_ee, _fe, _ge) {
     }
 }
 function _22(_ee, _fe, _ge) {
-    // //console.log("Func_000c");
     if (_se(_ee._Xg)._Wg == _ge) {
         return 0;
     }
@@ -3096,7 +3067,6 @@ function _22(_ee, _fe, _ge) {
     }
 }
 function _32(_ee, _fe, _ge, _he, _ie, _je) {
-    // //console.log("Func_000c");
     var _Qe = _ze(0, 0, 21);
     _se(_Qe)._Zg = _se(global._Sc)._Vg;
     _se(_Qe).__g = _ge;
@@ -3106,7 +3076,6 @@ function _32(_ee, _fe, _ge, _he, _ie, _je) {
     return _Qe;
 }
 function _42(_ee, _fe, _ge) {
-    // //console.log("Func_000c");
     if (_Gg() == 1) {
         {
             _2h(0, _ge);
@@ -3118,7 +3087,6 @@ function _42(_ee, _fe, _ge) {
     }
 }
 function _52(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     if (_Gg() == 1) {
         {
             _Yg(_ge);
@@ -3130,7 +3098,6 @@ function _52(_ee, _fe, _ge) {
     }
 }
 function _62(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     if (_se(global._1d)._Og == _ge) {
         return 0;
     }
@@ -3169,25 +3136,21 @@ function _62(_ee, _fe, _ge) {
     }
 }
 function _72(_ee, _fe) {
-    //console.log("Func_000c");
     _4h(_ee, _ee._5h, _ee._6h, _ee.x, _ee.y, _ee._Fe, _ee._Ge, _ee._ef, _ee._7h(), _ee._Pe);
 }
 function _82(_ee, _fe, _ge, _he, _ie, _je) {
-    //console.log("Func_000c");
     if (_ie <= 1 || _je <= 1) {
         return 0;
     }
     _4h(_ee, _ee._5h, _ee._6h, _ge, _he, _ie / _ee._8h(), _je / _ee._9h(), _ee._ef, 16777215, _ee._Pe);
 }
 function _92(_ee, _fe, _ge, _he, _ie, _je, _ke) {
-    //console.log("Func_000c");
     if (_ie <= 1 || _je <= 1) {
         return 0;
     }
     _4h(_ee, _ee._5h, _ee._6h, _ge, _he, _ie / _ee._8h(), _je / _ee._9h(), _ee._ef, 16777215, _ke);
 }
 function _a2(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne, _Oe, _Ye) {
-    //console.log("Func_000c");
     var _ah = _bh(_ge) / 10;
     var _ch = _dh(_ge);
     var _Vf;
@@ -4003,7 +3966,6 @@ function _e3(_ee, _fe) {
     }
 }
 function _f3(_ee, _fe, _ge, _he) {
-    console.log("f3", _ee, _fe, _ge, _he);
     if (_se(global._Xc)._vj == "fbinstant") {
         {
             _Aj(_ge, _he);
@@ -7264,7 +7226,7 @@ function _G5(_ee, _fe, _ge) {
             break;
         case 9:
             _se(_se(global._Jd)._0q)._ye = _z1(_ee, _fe, _se(global._Jd)._0q, _o1(_ee, _fe, 5, -560, 4));
-            _F5(_ee, _fe, 2000);
+            _F5(_ee, _fe, 200);
             _F5(_ee, _fe, 160);
             _F5(_ee, _fe, 20);
             _F5(_ee, _fe, -20);
@@ -7447,7 +7409,7 @@ function _O5(_ee, _fe) {
         }
     } else {
         {
-            _J5(_ee, _fe, 0, 2000, _se(_Qq)._uj, 0.4, 0 * _K2(_ee, _fe, -15, 15), 16777215, 1, 0, 0);
+            _J5(_ee, _fe, 0, 200, _se(_Qq)._uj, 0.4, 0 * _K2(_ee, _fe, -15, 15), 16777215, 1, 0, 0);
             _D3(_ee, _fe, "powerup started: " + _se(_Qq)._uj);
             _se(_Qq)._Zq = 1 ? 1 : 0;
             return _Qq;
@@ -7514,7 +7476,7 @@ function _S5(_ee, _fe) {
     _R5(_ee, _fe, 38, 50, 0.43, 0.8);
     _R5(_ee, _fe, 44, 100, 0.4, 1);
     _R5(_ee, _fe, 37, 150, 0.46, 1);
-    _R5(_ee, _fe, 42, 2000, 0.41, 1);
+    _R5(_ee, _fe, 42, 200, 0.41, 1);
 }
 function _T5(_ee, _fe, _ge) {
     return _se(global._Nd)._4r[~~_ge];
@@ -8750,7 +8712,7 @@ function _97(_ee, _fe) {
                 {
                     _e2(_ee, _fe, 1, 0, 1);
                     _ih(_ee, 5, 0, global._dd / 2, global._fd / 2);
-                    _V2(_ee, _fe, "Please turn your device", global._dd / 2, global._fd / 2 + 2000, 730, 120, 0.75, 1, 1, 16777215, _ee._ik, _ee._Pe);
+                    _V2(_ee, _fe, "Please turn your device", global._dd / 2, global._fd / 2 + 200, 730, 120, 0.75, 1, 1, 16777215, _ee._ik, _ee._Pe);
                 }
             }
         }
@@ -10454,7 +10416,7 @@ function _c8(_ee, _fe) {
                 }
             }
         }
-        var _Iv = 2000;
+        var _Iv = 200;
         if (_ee._Fv > 0.5) {
             {
                 if (_ee.x < _se(global._Tc)._cl - _Iv || _ee.x > _se(global._Tc)._fr + _Iv || _ee.y < _se(global._Tc)._dl - _Iv || _ee.y > _se(global._Tc)._gr + _Iv) {
@@ -10671,7 +10633,7 @@ function _l8(_ee, _fe) {
         _ee._Pi = 0;
         _ee._Qi = 0;
         _ee._Wv = 0;
-        _ee._Xv = 2000;
+        _ee._Xv = 200;
         _ee._Yv = -150;
         _ee._Zv = 250;
         _ee.__v = 1 ? 1 : 0;
@@ -11233,17 +11195,16 @@ function _K8(_ee, _fe) {
     }
 }
 function _L8(_ee, _fe) {
-    console.log("EEE", _ee, _fe);
     {
         _H2(_ee, _fe);
         _S5(_ee, _fe);
-        _ee._Mm = 300;
+        _ee._Mm = 876;
         _ee.__w = _Aj("introTotalTimeMS", 0);
         _ee._kq = _Aj("outroTotalTimeMS", 500);
         _ee._0x = -1;
         _ee._1x = 0 ? 1 : 0;
         _ee._2x = 80;
-        _ee._Oq = 1230;
+        _ee._Oq = 0;
         _ee._3x = 2800;
         _ee._4x = 9;
         _ee._5x = -110;
@@ -11254,7 +11215,7 @@ function _L8(_ee, _fe) {
         _ee._wq = 5;
         _ee._vq = 10;
         _ee._9x = 3;
-        _ee._ax = 1122330;
+        _ee._ax = 0;
         _ee._bx = 0 ? 1 : 0;
         _ee._cx = -1;
         _ee._dx = 4;
