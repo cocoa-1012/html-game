@@ -13212,7 +13212,7 @@ function _Xa(_ee, _fe) {
         var _ly = _T5(_ee, _fe, _ee.__p);
         _ee._hi(_Fj(_ly, "sprite"));
         _ee._Km = _Fj(_ly, "unlocked");
-        console.log("_ee._Km", _ee._Km);
+        console.log("_ee._Km", _ee._Km, _ly);
         if (_ee.__p <= 0) {
             _se(91)._c6 = 0 ? 1 : 0;
         } else {
