@@ -5103,6 +5103,7 @@ function _k4(_ee, _fe) {
 }
 function _l4(_ee, _fe, _ge) {
     _se(global._Jd)._Mm += _ge;
+    cookieSet("coins", _se(global._Jd)._Mm, 100);
     _se(global._Jd)._Mm = max(0, _se(global._Jd)._Mm);
     cookieSet("coins", _se(global._Jd)._Mm, 100);
 }
@@ -11329,6 +11330,7 @@ function _X8(_ee, _fe) {
                         if (_mx > 0.5) {
                             {
                                 _se(global._Jd)._Mm++;
+                                cookieSet("coins", _se(global._Jd)._Mm, 100);
                                 _B5(_rx, _ee, _rx.x, _rx.y, 75, 0, 0);
                                 _xe(_rx);
                                 __1(_rx, _ee, 1, 0);
