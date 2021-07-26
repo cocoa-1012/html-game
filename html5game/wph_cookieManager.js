@@ -21,6 +21,8 @@ function cookieSet(argument0, argument1, argument2) {
 }
 
 function cookieGet(argument0) {
+  console.log("cookieGet", argument0);
+
   try {
     var c_name = argument0;
     var c_value = document.cookie;
@@ -45,6 +47,8 @@ function cookieGet(argument0) {
 }
 
 function cookieExsists(argument0) {
+  console.log("cookieExsists", argument0);
+
   try {
     var cookiename = cookieGet(argument0);
     if (cookiename != null && cookiename != "") {
