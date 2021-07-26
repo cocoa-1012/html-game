@@ -7508,7 +7508,7 @@ function _R5(_ee, _fe, _ge, _he, _ie, _je) {
     _se(global._Nd)._5r++;
 }
 function _S5(_ee, _fe) {
-    console.log("_S5");
+    console.log("_S5", _ee, _fe);
     _I2(_ee, _fe, 103);
     _R5(_ee, _fe, 36, 0, 0.46, 1);
     _R5(_ee, _fe, 40, 50, 0.43, 0.8);
