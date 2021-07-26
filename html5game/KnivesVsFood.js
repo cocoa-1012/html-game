@@ -11236,7 +11236,7 @@ function _L8(_ee, _fe) {
     {
         _H2(_ee, _fe);
         _S5(_ee, _fe);
-        _ee._Mm = 2000;
+        _ee._Mm = 300;
         _ee.__w = _Aj("introTotalTimeMS", 0);
         _ee._kq = _Aj("outroTotalTimeMS", 500);
         _ee._0x = -1;
@@ -11389,8 +11389,8 @@ function _X8(_ee, _fe) {
                 _se(_ee._0q)._ux = _ee._7x;
                 var _vx = _se(_ee._0q).x;
                 var _wx = _se(_ee._0q).y + _se(_ee._0q)._Re;
-                _B5(_ee, _fe, _vx, _wx, 69, _K2(_ee, _fe, 2000, 700), 90 + _K2(_ee, _fe, -90, 90));
-                _B5(_ee, _fe, _vx, _wx, 69, _K2(_ee, _fe, 2000, 700), 90 + _K2(_ee, _fe, -90, 90));
+                _B5(_ee, _fe, _vx, _wx, 69, _K2(_ee, _fe, 200, 700), 90 + _K2(_ee, _fe, -90, 90));
+                _B5(_ee, _fe, _vx, _wx, 69, _K2(_ee, _fe, 200, 700), 90 + _K2(_ee, _fe, -90, 90));
                 if (_H1(_ee, _fe, 45) > 0.5) {
                     _B5(_ee, _fe, _vx + _K2(_ee, _fe, -150, 150), _wx + _K2(_ee, _fe, -100, 100), 70, 0, 0);
                 }
