@@ -1631,7 +1631,6 @@ var _P = {
     },
 };
 function _Pc() {
-    console.log("Func_Pc");
     global._Qc = 0;
     global._Rc = 0;
     global._Sc = 0;
@@ -1722,7 +1721,6 @@ function _Pc() {
     global._de = 0;
 }
 function _g1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
-    console.log("Func_g1");
 
     if (!(_D2(_ee, _fe, _ge) > 0.5)) {
         return 1;
@@ -1758,7 +1756,6 @@ function _g1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
     return _ye;
 }
 function _h1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
-    console.log("Func_h1", _ee, _fe, _ge, _he, _ie, _je, _ke);
     var _He = _Ie(_ee._Je, 48);
     var _Ke;
     if (_He > 0.5) {
@@ -1774,7 +1771,6 @@ function _h1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
     return _Ke;
 }
 function _i1(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne, _Oe) {
-    console.log("Func_i1", _ee, _fe, _ge, _he, _ie, _je, _ke, _Ne, _Oe);
     var _He = _Ie(_ee._Je, 48);
     var _Ke;
     if (_He > 0.5) {
@@ -1790,7 +1786,6 @@ function _i1(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne, _Oe) {
     return _Ke;
 }
 function _j1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
-    console.log("Func_j1");
     var _Ke = _w1(_ee, _fe, _ee.id, _he, 0, 0, 0, 0, 0, _ge - _ee._Pe, _ie);
     if (_je > 0.5) {
         _p1(_ee, _fe, _Ke, 0, _ke, 0);
@@ -1800,7 +1795,6 @@ function _j1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
     return _Ke;
 }
 function _k1(_ee, _fe, _ge, _he, _ie) {
-    console.log("Func_k1");
     var _Qe;
     _Qe = _ze(0, 0, 2);
     _se(_Qe)._re = _ge;
@@ -1810,7 +1804,6 @@ function _k1(_ee, _fe, _ge, _he, _ie) {
     return _Qe;
 }
 function _l1(_ee, _fe) {
-    console.log("Func_l1", _ee, _fe);
     var _Ke;
     var _Ue;
     if (_l1.arguments.length - 2 > 3) {
@@ -1844,7 +1837,6 @@ function _l1(_ee, _fe) {
     return _Ke;
 }
 function _m1(_ee, _fe, _ge, _he, _ie, _je) {
-    console.log("Func_m1");
     var _Qe;
     _Qe = _ze(0, 0, 3);
     _se(_Qe)._re = _ge;
@@ -1855,7 +1847,6 @@ function _m1(_ee, _fe, _ge, _he, _ie, _je) {
     return _Qe;
 }
 function _n1(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne, _Oe, _Ye) {
-    console.log("Func_n1", _ee, _fe, _ge, _he, _ie, _je, _ke, _Ne, _Oe, _Ye);
     var _Ze = 0;
     if (!(_Ze instanceof Array)) {
         _Ze = [];
@@ -1875,7 +1866,6 @@ function _n1(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne, _Oe, _Ye) {
     return _Ze;
 }
 function _o1(_ee, _fe, _ge, _he, _ie) {
-    console.log("Func_o1", _ee, _fe, _ge, _he, _ie);
     var _Ze = 0;
     for (var __e = 0; __e < 8; __e++) {
         if (!(_Ze instanceof Array)) {
@@ -1900,7 +1890,6 @@ function _o1(_ee, _fe, _ge, _he, _ie) {
     return _Ze;
 }
 function _p1(_ee, _fe, _ge, _he, _ie, _je) {
-    console.log("Func_p1", _ee, _fe, _ge, _he, _ie, _je);
     _se(_ge)._0f = _ie;
     _se(_ge)._1f = _je;
     _se(_ge)._2f = 2;
@@ -1938,11 +1927,9 @@ function _p1(_ee, _fe, _ge, _he, _ie, _je) {
     _se(_ge)._gf = 1 ? 1 : 0;
 }
 function _q1(_ee, _fe, _ge) {
-    console.log("Func_q1");
     _se(_ge)._hf = 0 ? 1 : 0;
 }
 function _r1(_ee, _fe, _ge, _he, _ie) {
-    console.log("Func_r1");
     _se(_ge)._0f = _ie;
     _se(_ge)._1f = 1;
     _se(_ge)._2f = 0;
@@ -1966,7 +1953,6 @@ function _r1(_ee, _fe, _ge, _he, _ie) {
     _se(_ge)._gf = 1 ? 1 : 0;
 }
 function _s1(_ee, _fe, _ge, _he, _ie, _je) {
-    console.log("Func_s1", _ee, _fe, _ge, _he, _ie, _je);
     _se(_ge)._0f = _ie;
     _se(_ge)._1f = _je;
     _se(_ge)._2f = 1;
@@ -2002,7 +1988,6 @@ function _s1(_ee, _fe, _ge, _he, _ie, _je) {
     _se(_ge)._gf = 1 ? 1 : 0;
 }
 function _t1(_ee, _fe, _ge, _he, _ie, _je) {
-    console.log("Func_t1");
     var _Ze = 0;
     if (!(_Ze instanceof Array)) {
         _Ze = [];
@@ -2022,7 +2007,6 @@ function _t1(_ee, _fe, _ge, _he, _ie, _je) {
     return _Ze;
 }
 function _u1(_ee, _fe, _ge) {
-    console.log("Func_u1");
     var _Ze = 0;
     if (!(_Ze instanceof Array)) {
         _Ze = [];
@@ -2042,7 +2026,6 @@ function _u1(_ee, _fe, _ge) {
     return _Ze;
 }
 function _v1(_ee, _fe, _ge, _he, _ie, _je) {
-    console.log("Func_v1");
     var _Ze = 0;
     if (!(_Ze instanceof Array)) {
         _Ze = [];
@@ -2062,7 +2045,6 @@ function _v1(_ee, _fe, _ge, _he, _ie, _je) {
     return _Ze;
 }
 function _w1(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne, _Oe, _Ye, _qf) {
-    console.log("Func_w1", _ee, _fe, _ge, _he, _ie, _je, _ke, _Ne, _Oe, _Ye, _qf);
     var _rf = _ze(0, 0, 5);
     _se(_rf)._if = 0;
     _se(_rf)._re = _ge;
@@ -2134,11 +2116,9 @@ function _w1(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne, _Oe, _Ye, _qf) {
     return _rf;
 }
 function _x1(_ee, _fe, _ge) {
-    console.log("Func_x1");
     _se(_ge)._hf = 1 ? 1 : 0;
 }
 function _y1(_ee, _fe, _ge, _he, _ie) {
-    //console.log("Func_Pc");
     _se(_ge)._0f = _ie;
     _se(_ge)._1f = 1;
     _se(_ge)._2f = 0;
@@ -2173,7 +2153,6 @@ function _y1(_ee, _fe, _ge, _he, _ie) {
     _se(_ge)._gf = 1 ? 1 : 0;
 }
 function _z1(_ee, _fe) {
-    //console.log("Func_Pc");
     if (_z1.arguments.length - 2 < 2) {
         {
             _D3(_ee, _fe, "Error: function tween_create_complex - incorrect number of arguments.");
@@ -2257,7 +2236,6 @@ function _z1(_ee, _fe) {
     return _rf;
 }
 function _A1(_ee, _fe, _ge, _he) {
-    //console.log("Func_Pc");
     if (_A1.arguments.length - 2 < 2) {
         {
             _D3(_ee, _fe, "Error: function tween_create_complex - incorrect number of arguments.");
@@ -2341,7 +2319,6 @@ function _A1(_ee, _fe, _ge, _he) {
     return _rf;
 }
 function _B1(_ee, _fe, _ge) {
-    //console.log("Func_Pc");
     {
         var _uf = _me(5);
         for (var _vf in _uf) {
@@ -4172,13 +4149,11 @@ function _l3(_ee, _fe) {
     _p3(_ee, _fe, _l3.arguments[2 + 0]);
 }
 function _m3(_ee, _fe, _ge) {
-    console.log("function ma",_ee, _fe, _ge);
     return _n3(_ee, _fe, _ge, _se(global._1d)._4k[~~_se(global._1d)._6k]);
 }
 function _n3(_ee, _fe, _ge, _he) {
     var _Ch = _ge;
     var _7k = _he;
-    console.log("Function _n3", _ee, _fe, _ge, _he);
     if (_7k == "EN") {
         {
             switch (_Ch) {
@@ -7529,7 +7504,6 @@ function _R5(_ee, _fe, _ge, _he, _ie, _je) {
     _se(global._Nd)._5r++;
 }
 function _S5(_ee, _fe) {
-    console.log("_S5", _ee, _fe);
     _I2(_ee, _fe, 103);
     _R5(_ee, _fe, 36, 0, 0.46, 1);
     _R5(_ee, _fe, 40, 50, 0.43, 0.8);
