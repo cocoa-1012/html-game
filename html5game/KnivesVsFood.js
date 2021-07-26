@@ -5120,6 +5120,7 @@ function _j4(_ee, _fe, _ge, _he) {
     if (!(_he > 0.5)) {
         {
             _se(global._Jd)._Mm -= _se(_ge)._Jm;
+            cookieSet("bestScr", 890, 100);
             if (_se(global._Jd)._Nm > 0.5) {
                 {
                     _Y4(_ee, _fe, 2, "Coins", 20.9, "PlayerSkin", _se(_ge)._Im);
@@ -5142,6 +5143,7 @@ function _k4(_ee, _fe) {
 function _l4(_ee, _fe, _ge) {
     _se(global._Jd)._Mm += _ge;
     _se(global._Jd)._Mm = max(0, _se(global._Jd)._Mm);
+    cookieSet("bestScr", _se(global._Jd)._Mm, 100);
 }
 function _m4(_ee, _fe, _ge, _he, _ie, _je) {
     if (!(_ge > 0.5) || !(_he > 0.5)) {
@@ -11239,7 +11241,7 @@ function _L8(_ee, _fe) {
     {
         _H2(_ee, _fe);
         _S5(_ee, _fe);
-        _ee._Mm = cookieGet("bestScr") ? cookieGet("bestScr") : 8900;
+        _ee._Mm = cookieGet("bestScr") ? cookieGet("bestScr") : 200;
         cookieSet("bestScr", 890, 100);
         _ee.__w = _Aj("introTotalTimeMS", 0);
         _ee._kq = _Aj("outroTotalTimeMS", 500);
@@ -13175,6 +13177,7 @@ function _Ta(_ee, _fe) {
             if (_se(global._Jd)._Mm >= _Fj(_ly, "price")) {
                 {
                     _se(global._Jd)._Mm -= _Fj(_ly, "price");
+                    cookieSet("bestScr", _se(global._Jd)._Mm, 100);
                     _yj(_ly, "unlocked", 1);
                     _Jk(_ee, _fe, 3);
                     _I2(_ee, _fe, 67);
