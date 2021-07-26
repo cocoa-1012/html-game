@@ -19,9 +19,9 @@ function js_browserLanguage() {
 
   return lang.toUpperCase();
 }
-
+//
 function js_trace(text) {
-  console.log("Text", text);
+  console.log("level", text);
 }
 
 // SITELOCKS
