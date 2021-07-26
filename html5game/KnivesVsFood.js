@@ -2334,7 +2334,6 @@ function _B1(_ee, _fe, _ge) {
     return 0;
 }
 function _C1(_ee, _fe, _ge) {
-    //console.log("Func_Pc");
     if (_xf(_ge) > 0.5) {
         {
             {
@@ -2369,7 +2368,6 @@ function _C1(_ee, _fe, _ge) {
     return 0;
 }
 function _D1(_ee, _fe, _ge) {
-    //console.log("Func_Pc");
     {
         var _Ef = _me(5);
         for (var _Ff in _Ef) {
@@ -2385,7 +2383,6 @@ function _D1(_ee, _fe, _ge) {
     return -1;
 }
 function _E1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
-    //console.log("Func_000c");
     var _Hf = _he / _ie;
     switch (_ge) {
         case 0:
@@ -2492,7 +2489,6 @@ function _E1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
     }
 }
 function _F1(_ee, _fe, _ge, _he, _ie) {
-    //console.log("Func_000c");
     var _Nf;
     var _If = sin(_Of(-_se(_ge)._ef));
     var _Pf = cos(_Of(-_se(_ge)._ef));
@@ -2508,7 +2504,6 @@ function _F1(_ee, _fe, _ge, _he, _ie) {
     return _Nf;
 }
 function _G1(_ee, _fe, _ge, _he, _ie, _je) {
-    //console.log("Func_000c");
     var _kf = _se(_ge).x - _se(_he).x;
     var _lf = _se(_ge).y - _se(_he).y;
     var _Qf = _kf * _kf + _lf * _lf;
@@ -2519,27 +2514,22 @@ function _G1(_ee, _fe, _ge, _he, _ie, _je) {
     }
 }
 function _H1(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     return random(1) < _ge / 100;
 }
 function _I1(_ee, _fe, _ge, _he, _ie) {
-    //console.log("Func_000c");
     _ee._Rf(_Sf(_ee.x, _ge, _ie));
     _ee._Tf(_Sf(_ee.y, _he, _ie));
     return _ie;
 }
 function _J1(_ee, _fe, _ge, _he, _ie) {
-    //console.log("Func_000c");
     _ee._te(_Sf(_ee._Fe, _ge, _ie));
     _ee._ve(_Sf(_ee._Ge, _he, _ie));
     return _ie;
 }
 function _K1(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     return !((_ge & 1) > 0.5);
 }
 function _L1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
-    //console.log("Func_000c");
     var _Hf = _he / _ie;
     switch (_ge) {
         case 0:
@@ -2646,11 +2636,9 @@ function _L1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
     }
 }
 function _M1(_ee, _fe) {
-    //console.log("Func_000c");
     return random(1) > 0.5;
 }
 function _N1(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     var _Uf = _ge;
     var _Vf = 1;
     for (_Vf = 1; _Uf >= 10; _Vf++) {
@@ -2661,7 +2649,6 @@ function _N1(_ee, _fe, _ge) {
     return _Vf;
 }
 function _O1(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne) {
-    //console.log("Func_000c");
     var _Wf;
     if (!(_Wf instanceof Array)) {
         _Wf = [];
@@ -2686,11 +2673,9 @@ function _O1(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne) {
     return _Wf;
 }
 function _P1(_ee, _fe, _ge, _he) {
-    //console.log("Func_000c");
     return -_2g(_3g(_he, _ge));
 }
 function _Q1(_ee, _fe, _ge, _he) {
-    //console.log("Func_000c");
     if (_ge > _ee._4g()) {
         return 0;
     }
@@ -2706,17 +2691,14 @@ function _Q1(_ee, _fe, _ge, _he) {
     return 1;
 }
 function _R1(_ee, _fe, _ge, _he) {
-    //console.log("Func_000c");
     var _8g = _9g(_ee.x, _ee.y, _se(_ge).x, _se(_ge).y);
     _ee._ag(_ee._ef - _bg(_ee._ef, _8g) * _he);
 }
 function _S1(_ee, _fe, _ge, _he, _ie) {
-    //console.log("Func_000c");
     var _8g = _9g(_ee.x, _ee.y, _ge, _he);
     _ee._ag(_ee._ef - _bg(_ee._ef, _8g) * _ie);
 }
 function _T1(_ee, _fe) {
-    //console.log("Func_000c");
     var _Qf;
     if (_T1.arguments.length - 2 > 3) {
         _Qf = _cg(_T1.arguments[2 + 2], _T1.arguments[2 + 3]);
@@ -2750,11 +2732,9 @@ function _T1(_ee, _fe) {
     return _eg;
 }
 function _U1(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     return _hg(_ge);
 }
 function _V1(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     var _ig = 0;
     var _jg = 0;
     var _kg = "";
@@ -2786,7 +2766,6 @@ function _V1(_ee, _fe, _ge) {
     }
 }
 function _W1(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     var _qg = _tf(_ge);
     var _rg = "";
     var _Pf = 0;
@@ -2804,7 +2783,6 @@ function _W1(_ee, _fe, _ge) {
     return _rg;
 }
 function _X1(_ee, _fe, _ge, _he, _ie) {
-    //console.log("Func_000c");
     {
         var _rg, _tg, _ug, _vg, _wg, _xg;
         _rg = _ge;
@@ -2834,7 +2812,6 @@ function _X1(_ee, _fe, _ge, _he, _ie) {
     }
 }
 function _Y1(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     var _Cg = _ge;
     var _Nf = "";
     var _Dg = "";
@@ -2857,7 +2834,6 @@ function _Y1(_ee, _fe, _ge) {
     return _Nf;
 }
 function _Z1(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     if (_Gg() == 1) {
         {
             _Hg(_ge);
@@ -2912,7 +2888,6 @@ function _Z1(_ee, _fe, _ge) {
     }
 }
 function __1(_ee, _fe, _ge, _he) {
-    //console.log("Func_000c");
     if (_se(global._1d)._Og > 0.5) {
         {
             if (_Gg() == 1) {
@@ -2985,7 +2960,6 @@ function __1(_ee, _fe, _ge, _he) {
     }
 }
 function _02(_ee, _fe) {
-    //console.log("Func_000c");
     if (_se(global._Sc)._Vg != -1) {
         {
             if (_Gg() == 1) {
@@ -3002,7 +2976,6 @@ function _02(_ee, _fe) {
     _se(global._Sc)._Vg = -1;
 }
 function _12(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     if (_se(global._Sc)._Vg != -1 && _se(global._Sc)._Vg != _ge) {
         {
             if (_Gg() == 1) {
@@ -3044,7 +3017,6 @@ function _12(_ee, _fe, _ge) {
     }
 }
 function _22(_ee, _fe, _ge) {
-    // //console.log("Func_000c");
     if (_se(_ee._Xg)._Wg == _ge) {
         return 0;
     }
@@ -3096,7 +3068,6 @@ function _22(_ee, _fe, _ge) {
     }
 }
 function _32(_ee, _fe, _ge, _he, _ie, _je) {
-    // //console.log("Func_000c");
     var _Qe = _ze(0, 0, 21);
     _se(_Qe)._Zg = _se(global._Sc)._Vg;
     _se(_Qe).__g = _ge;
@@ -3106,7 +3077,6 @@ function _32(_ee, _fe, _ge, _he, _ie, _je) {
     return _Qe;
 }
 function _42(_ee, _fe, _ge) {
-    // //console.log("Func_000c");
     if (_Gg() == 1) {
         {
             _2h(0, _ge);
@@ -3118,7 +3088,6 @@ function _42(_ee, _fe, _ge) {
     }
 }
 function _52(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     if (_Gg() == 1) {
         {
             _Yg(_ge);
@@ -3130,7 +3099,6 @@ function _52(_ee, _fe, _ge) {
     }
 }
 function _62(_ee, _fe, _ge) {
-    //console.log("Func_000c");
     if (_se(global._1d)._Og == _ge) {
         return 0;
     }
@@ -3169,25 +3137,21 @@ function _62(_ee, _fe, _ge) {
     }
 }
 function _72(_ee, _fe) {
-    //console.log("Func_000c");
     _4h(_ee, _ee._5h, _ee._6h, _ee.x, _ee.y, _ee._Fe, _ee._Ge, _ee._ef, _ee._7h(), _ee._Pe);
 }
 function _82(_ee, _fe, _ge, _he, _ie, _je) {
-    //console.log("Func_000c");
     if (_ie <= 1 || _je <= 1) {
         return 0;
     }
     _4h(_ee, _ee._5h, _ee._6h, _ge, _he, _ie / _ee._8h(), _je / _ee._9h(), _ee._ef, 16777215, _ee._Pe);
 }
 function _92(_ee, _fe, _ge, _he, _ie, _je, _ke) {
-    //console.log("Func_000c");
     if (_ie <= 1 || _je <= 1) {
         return 0;
     }
     _4h(_ee, _ee._5h, _ee._6h, _ge, _he, _ie / _ee._8h(), _je / _ee._9h(), _ee._ef, 16777215, _ke);
 }
 function _a2(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne, _Oe, _Ye) {
-    //console.log("Func_000c");
     var _ah = _bh(_ge) / 10;
     var _ch = _dh(_ge);
     var _Vf;
@@ -4003,8 +3967,6 @@ function _e3(_ee, _fe) {
     }
 }
 function _f3(_ee, _fe, _ge, _he) {
-    console.log("f3", _ee, _fe, _ge, _he);
-
     if (_se(global._Xc)._vj == "fbinstant") {
         {
             _Aj(_ge, _he);
@@ -5140,7 +5102,6 @@ function _k4(_ee, _fe) {
     return _Pf;
 }
 function _l4(_ee, _fe, _ge) {
-    console.log("_l4");
     _se(global._Jd)._Mm += _ge;
     _se(global._Jd)._Mm = max(0, _se(global._Jd)._Mm);
     cookieSet("coins", _se(global._Jd)._Mm, 100);
@@ -11237,7 +11198,6 @@ function _K8(_ee, _fe) {
     }
 }
 function _L8(_ee, _fe) {
-    console.log("EEE", _ee, _fe);
     {
         _H2(_ee, _fe);
         _S5(_ee, _fe);
@@ -13175,7 +13135,6 @@ function _Ta(_ee, _fe) {
         if (!(_Fj(_ly, "unlocked") > 0.5)) {
             if (_se(global._Jd)._Mm >= _Fj(_ly, "price")) {
                 {
-                    console.log("_Ta", _ly, _ee._Km);
                     cookieSet(`tools${_ly}`, _ee._Km, 100);
                     _se(global._Jd)._Mm -= _Fj(_ly, "price");
                     cookieSet("coins", _se(global._Jd)._Mm, 100);
@@ -13207,14 +13166,10 @@ function _Wa(_ee, _fe) {
 }
 function _Xa(_ee, _fe) {
     {
-        console.log("Test Xa");
         var _ly = _T5(_ee, _fe, _ee.__p);
         _ee._hi(_Fj(_ly, "sprite"));
         _ee._Km = cookieGet(`tools${_ly}`) ? cookieGet(`tools${_ly}`) : _Fj(_ly, "unlocked");
-        // cookieSet(`tools${_ly}`, _ee._Km, 100);
-        console.log("_ee._Km", _ee._Km, _ly);
         if (_ee.__p <= 0) {
-            console.log("_ee._p", _ee._p, _se(91)._c6);
             _se(91)._c6 = 0 ? 1 : 0;
         } else {
             _se(91)._c6 = 1 ? 1 : 0;
