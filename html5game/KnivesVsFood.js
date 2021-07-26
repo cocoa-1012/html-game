@@ -11982,6 +11982,7 @@ function _s9(_ee, _fe) {
         }
     }
 }
+// shotting
 function _t9(_ee, _fe) {
     {
         _H2(_ee, _fe);
@@ -11997,7 +11998,6 @@ function _t9(_ee, _fe) {
         var _ly = _T5(_ee, _fe, _se(global._Nd)._Zp);
         _ee._4q = _Fj(_ly, "scale");
         _ee._hi(_Fj(_ly, "sprite"));
-        console.log("Fj Function", _ee._4q, _ee._hi(_Fj(_ly, "sprite")));
         _ee._Tw = _ee._8h();
         _ee._uq = _ee._9h();
         _ee._my = 0;
@@ -12012,6 +12012,7 @@ function _t9(_ee, _fe) {
     }
 }
 function _u9(_ee, _fe) {
+    console.log("u9");
     {
         _H2(_ee, _fe);
         if (_P5(_ee, _fe, 79) > 0.5 && !(_ee._3q > 0.5)) {
