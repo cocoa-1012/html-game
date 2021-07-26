@@ -5140,9 +5140,10 @@ function _k4(_ee, _fe) {
     return _Pf;
 }
 function _l4(_ee, _fe, _ge) {
+    console.log("_l4");
     _se(global._Jd)._Mm += _ge;
     _se(global._Jd)._Mm = max(0, _se(global._Jd)._Mm);
-    cookieSet("bestScr", _se(global._Jd)._Mm, 100);
+    cookieSet("coins", _se(global._Jd)._Mm, 100);
 }
 function _m4(_ee, _fe, _ge, _he, _ie, _je) {
     if (!(_ge > 0.5) || !(_he > 0.5)) {
@@ -11239,8 +11240,8 @@ function _L8(_ee, _fe) {
     {
         _H2(_ee, _fe);
         _S5(_ee, _fe);
-        _ee._Mm = cookieGet("bestScr") ? cookieGet("bestScr") : 200;
-        cookieSet("bestScr", 890, 100);
+        _ee._Mm = cookieGet("coins") ? cookieGet("coins") : 200;
+        cookieSet("coins", 890, 100);
         _ee.__w = _Aj("introTotalTimeMS", 0);
         _ee._kq = _Aj("outroTotalTimeMS", 500);
         _ee._0x = -1;
@@ -13174,8 +13175,10 @@ function _Ta(_ee, _fe) {
         if (!(_Fj(_ly, "unlocked") > 0.5)) {
             if (_se(global._Jd)._Mm >= _Fj(_ly, "price")) {
                 {
+    console.log("_Ta");
+
                     _se(global._Jd)._Mm -= _Fj(_ly, "price");
-                    cookieSet("bestScr", _se(global._Jd)._Mm, 100);
+                    cookieSet("coins", _se(global._Jd)._Mm, 100);
                     _yj(_ly, "unlocked", 1);
                     _Jk(_ee, _fe, 3);
                     _I2(_ee, _fe, 67);
@@ -13225,7 +13228,9 @@ function _Xa(_ee, _fe) {
                 _se(92)._zi = 1 ? 1 : 0;
                 _se(92)._Jv = 11;
             }
-            cookieSet("bestScr", _se(global._Jd)._Mm, 100);
+    console.log("_Xa");
+
+            cookieSet("coins", _se(global._Jd)._Mm, 100);
         } else {
             {
                 _se(92)._Jv = 9;
@@ -13287,7 +13292,9 @@ function _5b(_ee, _fe) {
     {
         _H2(_ee, _fe);
         _se(_ee._0z)._Ch = _pg(_se(global._Jd)._Mm);
-        cookieSet("bestScr", _se(global._Jd)._Mm, 100);
+    console.log("_5b");
+
+        cookieSet("coins", _se(global._Jd)._Mm, 100);
     }
 }
 function _6b(_ee, _fe) {
@@ -13581,7 +13588,8 @@ function _Ob(_ee) {
     _se(_ee._1z)._Ch = _pg(_se(global._Jd)._Fk);
     _G2(_ee, _ee, 0, 0);
     _l1(_ee, _ee, 0.8, 0.8, 0.5, 11, 0, 0.55, 0);
-    console.log("bestScore:",_se(global._Jd)._Fk)
+    console.log("bestScore:",_se(global._Jd)._Fk);
+    cookieSet("bestScr", _se(global._Jd)._Fk, 100);
 }
 function _Pb(_ee) {
     _S2(_ee, _ee, 0, 0.5, 80, 0);
