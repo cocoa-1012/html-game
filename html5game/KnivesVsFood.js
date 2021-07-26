@@ -1804,7 +1804,6 @@ function _k1(_ee, _fe, _ge, _he, _ie) {
     return _Qe;
 }
 function _l1(_ee, _fe) {
-    console.log("_l1", _ee, _fe);
     var _Ke;
     var _Ue;
     if (_l1.arguments.length - 2 > 3) {
@@ -11996,8 +11995,8 @@ function _t9(_ee, _fe) {
         _ee._Nj = -1;
         _ee._ky = 0;
         var _ly = _T5(_ee, _fe, _se(global._Nd)._Zp);
-        _ee._4q = _Fj(_ly, "scale");
-        _ee._hi(_Fj(_ly, "sprite"));
+        _ee._4q = _Fj(3, "scale");
+        _ee._hi(_Fj(3, "sprite"));
         _ee._Tw = _ee._8h();
         _ee._uq = _ee._9h();
         _ee._my = 0;
