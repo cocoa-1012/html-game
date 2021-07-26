@@ -13210,7 +13210,8 @@ function _Xa(_ee, _fe) {
         console.log("Test Xa");
         var _ly = _T5(_ee, _fe, _ee.__p);
         _ee._hi(_Fj(_ly, "sprite"));
-        _ee._Km = _Fj(_ly, "unlocked");
+        _ee._Km = cookieGet(`tools${_ly}`) ? cookieGet(`tools${_ly}`) : _Fj(_ly, "unlocked");
+        cookieSet(`tools${_ly}`, _ee._Km, 100);
         console.log("_ee._Km", _ee._Km, _ly);
         console.log("_ee._p", _ee._p, _se(91)._c6);
         console.log("_se(global._Nd)._5r", _se(global._Nd)._5r);
@@ -13588,7 +13589,6 @@ function _Ob(_ee) {
     _se(_ee._1z)._Ch = _pg(_se(global._Jd)._Fk);
     _G2(_ee, _ee, 0, 0);
     _l1(_ee, _ee, 0.8, 0.8, 0.5, 11, 0, 0.55, 0);
-    // cookieSet("bestScr", _se(global._Jd)._Fk, 100);
 }
 function _Pb(_ee) {
     _S2(_ee, _ee, 0, 0.5, 80, 0);
