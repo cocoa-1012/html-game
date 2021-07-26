@@ -5120,7 +5120,6 @@ function _j4(_ee, _fe, _ge, _he) {
     if (!(_he > 0.5)) {
         {
             _se(global._Jd)._Mm -= _se(_ge)._Jm;
-            cookieSet("bestScr", 890, 100);
             if (_se(global._Jd)._Nm > 0.5) {
                 {
                     _Y4(_ee, _fe, 2, "Coins", 20.9, "PlayerSkin", _se(_ge)._Im);
@@ -11237,7 +11236,6 @@ function _K8(_ee, _fe) {
 }
 function _L8(_ee, _fe) {
     console.log("EEE", _ee, _fe);
-    // cookieSet("bestScr", 890, 100);
     {
         _H2(_ee, _fe);
         _S5(_ee, _fe);
@@ -11370,7 +11368,6 @@ function _X8(_ee, _fe) {
                         if (_mx > 0.5) {
                             {
                                 _se(global._Jd)._Mm++;
-                                cookieSet("bestScr", _se(global._Jd)._Mm, 100);
                                 _B5(_rx, _ee, _rx.x, _rx.y, 75, 0, 0);
                                 _xe(_rx);
                                 __1(_rx, _ee, 1, 0);
@@ -13584,7 +13581,7 @@ function _Ob(_ee) {
     _se(_ee._1z)._Ch = _pg(_se(global._Jd)._Fk);
     _G2(_ee, _ee, 0, 0);
     _l1(_ee, _ee, 0.8, 0.8, 0.5, 11, 0, 0.55, 0);
-    console.log("bestScore:", _ee, _se(global._Jd)._Fk)
+    console.log("bestScore:",_se(global._Jd)._Fk)
 }
 function _Pb(_ee) {
     _S2(_ee, _ee, 0, 0.5, 80, 0);
