@@ -1631,6 +1631,7 @@ var _P = {
     },
 };
 function _Pc() {
+    console.log("Func_Pc");
     global._Qc = 0;
     global._Rc = 0;
     global._Sc = 0;
@@ -1721,6 +1722,8 @@ function _Pc() {
     global._de = 0;
 }
 function _g1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
+    console.log("Func_g1");
+
     if (!(_D2(_ee, _fe, _ge) > 0.5)) {
         return 1;
     }
@@ -1755,6 +1758,7 @@ function _g1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
     return _ye;
 }
 function _h1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
+    console.log("Func_h1");
     var _He = _Ie(_ee._Je, 48);
     var _Ke;
     if (_He > 0.5) {
@@ -1770,6 +1774,7 @@ function _h1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
     return _Ke;
 }
 function _i1(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne, _Oe) {
+    console.log("Func_i1");
     var _He = _Ie(_ee._Je, 48);
     var _Ke;
     if (_He > 0.5) {
@@ -1785,6 +1790,7 @@ function _i1(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne, _Oe) {
     return _Ke;
 }
 function _j1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
+    console.log("Func_j1");
     var _Ke = _w1(_ee, _fe, _ee.id, _he, 0, 0, 0, 0, 0, _ge - _ee._Pe, _ie);
     if (_je > 0.5) {
         _p1(_ee, _fe, _Ke, 0, _ke, 0);
@@ -1794,6 +1800,7 @@ function _j1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
     return _Ke;
 }
 function _k1(_ee, _fe, _ge, _he, _ie) {
+    console.log("Func_k1");
     var _Qe;
     _Qe = _ze(0, 0, 2);
     _se(_Qe)._re = _ge;
@@ -1803,6 +1810,7 @@ function _k1(_ee, _fe, _ge, _he, _ie) {
     return _Qe;
 }
 function _l1(_ee, _fe) {
+    console.log("Func_l1");
     var _Ke;
     var _Ue;
     if (_l1.arguments.length - 2 > 3) {
@@ -1836,6 +1844,7 @@ function _l1(_ee, _fe) {
     return _Ke;
 }
 function _m1(_ee, _fe, _ge, _he, _ie, _je) {
+    console.log("Func_m1");
     var _Qe;
     _Qe = _ze(0, 0, 3);
     _se(_Qe)._re = _ge;
@@ -1846,6 +1855,7 @@ function _m1(_ee, _fe, _ge, _he, _ie, _je) {
     return _Qe;
 }
 function _n1(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne, _Oe, _Ye) {
+    console.log("Func_n1");
     var _Ze = 0;
     if (!(_Ze instanceof Array)) {
         _Ze = [];
@@ -1865,6 +1875,7 @@ function _n1(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne, _Oe, _Ye) {
     return _Ze;
 }
 function _o1(_ee, _fe, _ge, _he, _ie) {
+    console.log("Func_o1");
     var _Ze = 0;
     for (var __e = 0; __e < 8; __e++) {
         if (!(_Ze instanceof Array)) {
@@ -1889,6 +1900,7 @@ function _o1(_ee, _fe, _ge, _he, _ie) {
     return _Ze;
 }
 function _p1(_ee, _fe, _ge, _he, _ie, _je) {
+    console.log("Func_p1");
     _se(_ge)._0f = _ie;
     _se(_ge)._1f = _je;
     _se(_ge)._2f = 2;
@@ -1926,9 +1938,11 @@ function _p1(_ee, _fe, _ge, _he, _ie, _je) {
     _se(_ge)._gf = 1 ? 1 : 0;
 }
 function _q1(_ee, _fe, _ge) {
+    console.log("Func_q1");
     _se(_ge)._hf = 0 ? 1 : 0;
 }
 function _r1(_ee, _fe, _ge, _he, _ie) {
+    console.log("Func_r1");
     _se(_ge)._0f = _ie;
     _se(_ge)._1f = 1;
     _se(_ge)._2f = 0;
@@ -1952,6 +1966,7 @@ function _r1(_ee, _fe, _ge, _he, _ie) {
     _se(_ge)._gf = 1 ? 1 : 0;
 }
 function _s1(_ee, _fe, _ge, _he, _ie, _je) {
+    console.log("Func_s1");
     _se(_ge)._0f = _ie;
     _se(_ge)._1f = _je;
     _se(_ge)._2f = 1;
@@ -1987,6 +2002,7 @@ function _s1(_ee, _fe, _ge, _he, _ie, _je) {
     _se(_ge)._gf = 1 ? 1 : 0;
 }
 function _t1(_ee, _fe, _ge, _he, _ie, _je) {
+    console.log("Func_t1");
     var _Ze = 0;
     if (!(_Ze instanceof Array)) {
         _Ze = [];
@@ -2006,6 +2022,7 @@ function _t1(_ee, _fe, _ge, _he, _ie, _je) {
     return _Ze;
 }
 function _u1(_ee, _fe, _ge) {
+    console.log("Func_u1");
     var _Ze = 0;
     if (!(_Ze instanceof Array)) {
         _Ze = [];
@@ -2025,6 +2042,7 @@ function _u1(_ee, _fe, _ge) {
     return _Ze;
 }
 function _v1(_ee, _fe, _ge, _he, _ie, _je) {
+    console.log("Func_v1");
     var _Ze = 0;
     if (!(_Ze instanceof Array)) {
         _Ze = [];
@@ -2044,6 +2062,7 @@ function _v1(_ee, _fe, _ge, _he, _ie, _je) {
     return _Ze;
 }
 function _w1(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne, _Oe, _Ye, _qf) {
+    console.log("Func_w1");
     var _rf = _ze(0, 0, 5);
     _se(_rf)._if = 0;
     _se(_rf)._re = _ge;
@@ -2115,9 +2134,11 @@ function _w1(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne, _Oe, _Ye, _qf) {
     return _rf;
 }
 function _x1(_ee, _fe, _ge) {
+    console.log("Func_x1");
     _se(_ge)._hf = 1 ? 1 : 0;
 }
 function _y1(_ee, _fe, _ge, _he, _ie) {
+    console.log("Func_Pc");
     _se(_ge)._0f = _ie;
     _se(_ge)._1f = 1;
     _se(_ge)._2f = 0;
@@ -2152,6 +2173,7 @@ function _y1(_ee, _fe, _ge, _he, _ie) {
     _se(_ge)._gf = 1 ? 1 : 0;
 }
 function _z1(_ee, _fe) {
+    console.log("Func_Pc");
     if (_z1.arguments.length - 2 < 2) {
         {
             _D3(_ee, _fe, "Error: function tween_create_complex - incorrect number of arguments.");
@@ -2235,6 +2257,7 @@ function _z1(_ee, _fe) {
     return _rf;
 }
 function _A1(_ee, _fe, _ge, _he) {
+    console.log("Func_Pc");
     if (_A1.arguments.length - 2 < 2) {
         {
             _D3(_ee, _fe, "Error: function tween_create_complex - incorrect number of arguments.");
@@ -2318,6 +2341,7 @@ function _A1(_ee, _fe, _ge, _he) {
     return _rf;
 }
 function _B1(_ee, _fe, _ge) {
+    console.log("Func_Pc");
     {
         var _uf = _me(5);
         for (var _vf in _uf) {
@@ -2333,6 +2357,7 @@ function _B1(_ee, _fe, _ge) {
     return 0;
 }
 function _C1(_ee, _fe, _ge) {
+    console.log("Func_Pc");
     if (_xf(_ge) > 0.5) {
         {
             {
@@ -2367,6 +2392,7 @@ function _C1(_ee, _fe, _ge) {
     return 0;
 }
 function _D1(_ee, _fe, _ge) {
+    console.log("Func_Pc");
     {
         var _Ef = _me(5);
         for (var _Ff in _Ef) {
@@ -2382,6 +2408,7 @@ function _D1(_ee, _fe, _ge) {
     return -1;
 }
 function _E1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
+    console.log("Func_000c");
     var _Hf = _he / _ie;
     switch (_ge) {
         case 0:
@@ -2488,6 +2515,7 @@ function _E1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
     }
 }
 function _F1(_ee, _fe, _ge, _he, _ie) {
+    console.log("Func_000c");
     var _Nf;
     var _If = sin(_Of(-_se(_ge)._ef));
     var _Pf = cos(_Of(-_se(_ge)._ef));
@@ -2503,6 +2531,7 @@ function _F1(_ee, _fe, _ge, _he, _ie) {
     return _Nf;
 }
 function _G1(_ee, _fe, _ge, _he, _ie, _je) {
+    console.log("Func_000c");
     var _kf = _se(_ge).x - _se(_he).x;
     var _lf = _se(_ge).y - _se(_he).y;
     var _Qf = _kf * _kf + _lf * _lf;
@@ -2513,22 +2542,27 @@ function _G1(_ee, _fe, _ge, _he, _ie, _je) {
     }
 }
 function _H1(_ee, _fe, _ge) {
+    console.log("Func_000c");
     return random(1) < _ge / 100;
 }
 function _I1(_ee, _fe, _ge, _he, _ie) {
+    console.log("Func_000c");
     _ee._Rf(_Sf(_ee.x, _ge, _ie));
     _ee._Tf(_Sf(_ee.y, _he, _ie));
     return _ie;
 }
 function _J1(_ee, _fe, _ge, _he, _ie) {
+    console.log("Func_000c");
     _ee._te(_Sf(_ee._Fe, _ge, _ie));
     _ee._ve(_Sf(_ee._Ge, _he, _ie));
     return _ie;
 }
 function _K1(_ee, _fe, _ge) {
+    console.log("Func_000c");
     return !((_ge & 1) > 0.5);
 }
 function _L1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
+    console.log("Func_000c");
     var _Hf = _he / _ie;
     switch (_ge) {
         case 0:
@@ -2635,9 +2669,11 @@ function _L1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
     }
 }
 function _M1(_ee, _fe) {
+    console.log("Func_000c");
     return random(1) > 0.5;
 }
 function _N1(_ee, _fe, _ge) {
+    console.log("Func_000c");
     var _Uf = _ge;
     var _Vf = 1;
     for (_Vf = 1; _Uf >= 10; _Vf++) {
@@ -2648,6 +2684,7 @@ function _N1(_ee, _fe, _ge) {
     return _Vf;
 }
 function _O1(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne) {
+    console.log("Func_000c");
     var _Wf;
     if (!(_Wf instanceof Array)) {
         _Wf = [];
@@ -2672,9 +2709,11 @@ function _O1(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne) {
     return _Wf;
 }
 function _P1(_ee, _fe, _ge, _he) {
+    console.log("Func_000c");
     return -_2g(_3g(_he, _ge));
 }
 function _Q1(_ee, _fe, _ge, _he) {
+    console.log("Func_000c");
     if (_ge > _ee._4g()) {
         return 0;
     }
@@ -2690,14 +2729,17 @@ function _Q1(_ee, _fe, _ge, _he) {
     return 1;
 }
 function _R1(_ee, _fe, _ge, _he) {
+    console.log("Func_000c");
     var _8g = _9g(_ee.x, _ee.y, _se(_ge).x, _se(_ge).y);
     _ee._ag(_ee._ef - _bg(_ee._ef, _8g) * _he);
 }
 function _S1(_ee, _fe, _ge, _he, _ie) {
+    console.log("Func_000c");
     var _8g = _9g(_ee.x, _ee.y, _ge, _he);
     _ee._ag(_ee._ef - _bg(_ee._ef, _8g) * _ie);
 }
 function _T1(_ee, _fe) {
+    console.log("Func_000c");
     var _Qf;
     if (_T1.arguments.length - 2 > 3) {
         _Qf = _cg(_T1.arguments[2 + 2], _T1.arguments[2 + 3]);
@@ -2731,9 +2773,11 @@ function _T1(_ee, _fe) {
     return _eg;
 }
 function _U1(_ee, _fe, _ge) {
+    console.log("Func_000c");
     return _hg(_ge);
 }
 function _V1(_ee, _fe, _ge) {
+    console.log("Func_000c");
     var _ig = 0;
     var _jg = 0;
     var _kg = "";
@@ -2765,6 +2809,7 @@ function _V1(_ee, _fe, _ge) {
     }
 }
 function _W1(_ee, _fe, _ge) {
+    console.log("Func_000c");
     var _qg = _tf(_ge);
     var _rg = "";
     var _Pf = 0;
@@ -2782,6 +2827,7 @@ function _W1(_ee, _fe, _ge) {
     return _rg;
 }
 function _X1(_ee, _fe, _ge, _he, _ie) {
+    console.log("Func_000c");
     {
         var _rg, _tg, _ug, _vg, _wg, _xg;
         _rg = _ge;
@@ -2811,6 +2857,7 @@ function _X1(_ee, _fe, _ge, _he, _ie) {
     }
 }
 function _Y1(_ee, _fe, _ge) {
+    console.log("Func_000c");
     var _Cg = _ge;
     var _Nf = "";
     var _Dg = "";
@@ -2833,6 +2880,7 @@ function _Y1(_ee, _fe, _ge) {
     return _Nf;
 }
 function _Z1(_ee, _fe, _ge) {
+    console.log("Func_000c");
     if (_Gg() == 1) {
         {
             _Hg(_ge);
@@ -2887,6 +2935,7 @@ function _Z1(_ee, _fe, _ge) {
     }
 }
 function __1(_ee, _fe, _ge, _he) {
+    console.log("Func_000c");
     if (_se(global._1d)._Og > 0.5) {
         {
             if (_Gg() == 1) {
@@ -2959,6 +3008,7 @@ function __1(_ee, _fe, _ge, _he) {
     }
 }
 function _02(_ee, _fe) {
+    console.log("Func_000c");
     if (_se(global._Sc)._Vg != -1) {
         {
             if (_Gg() == 1) {
@@ -2975,6 +3025,7 @@ function _02(_ee, _fe) {
     _se(global._Sc)._Vg = -1;
 }
 function _12(_ee, _fe, _ge) {
+    console.log("Func_000c");
     if (_se(global._Sc)._Vg != -1 && _se(global._Sc)._Vg != _ge) {
         {
             if (_Gg() == 1) {
@@ -3016,6 +3067,7 @@ function _12(_ee, _fe, _ge) {
     }
 }
 function _22(_ee, _fe, _ge) {
+    console.log("Func_000c");
     if (_se(_ee._Xg)._Wg == _ge) {
         return 0;
     }
@@ -3067,6 +3119,7 @@ function _22(_ee, _fe, _ge) {
     }
 }
 function _32(_ee, _fe, _ge, _he, _ie, _je) {
+    console.log("Func_000c");
     var _Qe = _ze(0, 0, 21);
     _se(_Qe)._Zg = _se(global._Sc)._Vg;
     _se(_Qe).__g = _ge;
@@ -3076,6 +3129,7 @@ function _32(_ee, _fe, _ge, _he, _ie, _je) {
     return _Qe;
 }
 function _42(_ee, _fe, _ge) {
+    console.log("Func_000c");
     if (_Gg() == 1) {
         {
             _2h(0, _ge);
@@ -3087,6 +3141,7 @@ function _42(_ee, _fe, _ge) {
     }
 }
 function _52(_ee, _fe, _ge) {
+    console.log("Func_000c");
     if (_Gg() == 1) {
         {
             _Yg(_ge);
@@ -3098,6 +3153,7 @@ function _52(_ee, _fe, _ge) {
     }
 }
 function _62(_ee, _fe, _ge) {
+    console.log("Func_000c");
     if (_se(global._1d)._Og == _ge) {
         return 0;
     }
@@ -3136,21 +3192,25 @@ function _62(_ee, _fe, _ge) {
     }
 }
 function _72(_ee, _fe) {
+    console.log("Func_000c");
     _4h(_ee, _ee._5h, _ee._6h, _ee.x, _ee.y, _ee._Fe, _ee._Ge, _ee._ef, _ee._7h(), _ee._Pe);
 }
 function _82(_ee, _fe, _ge, _he, _ie, _je) {
+    console.log("Func_000c");
     if (_ie <= 1 || _je <= 1) {
         return 0;
     }
     _4h(_ee, _ee._5h, _ee._6h, _ge, _he, _ie / _ee._8h(), _je / _ee._9h(), _ee._ef, 16777215, _ee._Pe);
 }
 function _92(_ee, _fe, _ge, _he, _ie, _je, _ke) {
+    console.log("Func_000c");
     if (_ie <= 1 || _je <= 1) {
         return 0;
     }
     _4h(_ee, _ee._5h, _ee._6h, _ge, _he, _ie / _ee._8h(), _je / _ee._9h(), _ee._ef, 16777215, _ke);
 }
 function _a2(_ee, _fe, _ge, _he, _ie, _je, _ke, _Ne, _Oe, _Ye) {
+    console.log("Func_000c");
     var _ah = _bh(_ge) / 10;
     var _ch = _dh(_ge);
     var _Vf;
@@ -13444,7 +13504,6 @@ function _eb(_ee, _fe) {
                     //_Th(_ee.x + _ee._7z * _ee._5z, _ee.y + _ee._8z * _ee._5z, _ee._bz, _ee._5z * _ee._9z, _ee._5z * _ee._9z, 0);
                     return 0;
                 }
-                _Ph(_Qe);
             }
         } else {
             if (_ee._kr == 1 || _ee._kr == 2) {
@@ -13469,19 +13528,11 @@ function _fb(_ee, _fe) {
 function _gb(_ee, _fe) {
     {
         return 0;
-        _ee._Zp++;
-        if (_ee._Zp > _ee._5r - 1) {
-            _ee._Zp = _ee._5r - 1;
-        }
     }
 }
 function _hb(_ee, _fe) {
     {
         return 0;
-        _ee._Zp--;
-        if (_ee._Zp < 0) {
-            _ee._Zp = 0;
-        }
     }
 }
 function _wb(_ee) {
@@ -40586,10 +40637,8 @@ function _vF(_YF, _n22, _o22) {
         switch (_y22) {
             case _LV1.UNSIGNED_BYTE:
                 return new Int32Array(_z22, _A22);
-                break;
             case _LV1.FLOAT:
                 return new Float32Array(_z22, _A22);
-                break;
         }
         return false;
     }
@@ -50465,7 +50514,6 @@ function _aZ(_6Z, _7Z) {
                 default:
                     return _js2;
             }
-            break;
         case _vs2:
             switch (_7Z) {
                 case _ws2:
@@ -50477,7 +50525,6 @@ function _aZ(_6Z, _7Z) {
                 default:
                     return _zs2;
             }
-            break;
         case _Cs2:
             return _T92;
         case _Ds2:
@@ -50579,7 +50626,6 @@ function _aZ(_6Z, _7Z) {
                 default:
                     return 0;
             }
-            break;
         case _oZ: {
             switch (_7Z) {
                 case _ut2:
@@ -50685,7 +50731,6 @@ function _aZ(_6Z, _7Z) {
                 default:
                     return 0;
             }
-            break;
         }
         case _Vu2:
             return _Wu2;
@@ -50756,7 +50801,6 @@ function _aZ(_6Z, _7Z) {
                 case _Vv2:
                     return _Q61;
             }
-            break;
         default:
             return 0;
     }
@@ -55105,12 +55149,10 @@ _xK2.prototype._NL2 = function (_bG, _vL2, _GU) {
             this._FK2.setUint8(_vL2, _GU);
             this._KK2(_vL2 + 1);
             return;
-            break;
         case _6K2:
             this._FK2.setInt8(_vL2, _GU);
             this._KK2(_vL2 + 1);
             return;
-            break;
         case _7K2:
             this._FK2.setUint16(_vL2, _GU, true);
             break;
@@ -68909,7 +68951,6 @@ function _iT(_bG) {
         case _041:
         case _9T:
             return _ET[_bG];
-            break;
     }
 }
 function _2b3() {
