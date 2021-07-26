@@ -6871,6 +6871,7 @@ function _A5(_ee, _fe, _ge) {
     _se(global._Jd)._eq = 0 ? 1 : 0;
     if (_se(global._Jd)._Bp > _se(global._Jd)._Fk) {
         _se(global._Jd)._Fk = _se(global._Jd)._Bp;
+        cookieSet("bestScr", _se(global._Jd)._Fk, 100);
     }
     _r5(_ee, _fe, 0);
     if (global._de > 0.5) {
@@ -10338,7 +10339,7 @@ function _68(_ee, _fe) {
         _ee._uv = 0 ? 1 : 0;
         _ee._vv = 0 ? 1 : 0;
         _ee._Bp = 0;
-        _ee._Fk = 200;
+        _ee._Fk = cookieGet("bestScr") ? cookieGet("bestScr") : 0;
         _ee._dq = 0 ? 1 : 0;
         _ee._hf = 0 ? 1 : 0;
         _ee._cq = 0 ? 1 : 0;
@@ -13585,8 +13586,7 @@ function _Ob(_ee) {
     _se(_ee._1z)._Ch = _pg(_se(global._Jd)._Fk);
     _G2(_ee, _ee, 0, 0);
     _l1(_ee, _ee, 0.8, 0.8, 0.5, 11, 0, 0.55, 0);
-    console.log("bestScore:",_se(global._Jd)._Fk);
-    cookieSet("bestScr", _se(global._Jd)._Fk, 100);
+    // cookieSet("bestScr", _se(global._Jd)._Fk, 100);
 }
 function _Pb(_ee) {
     _S2(_ee, _ee, 0, 0.5, 80, 0);
