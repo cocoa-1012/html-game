@@ -13213,16 +13213,19 @@ function _Xa(_ee, _fe) {
         _ee._hi(_Fj(_ly, "sprite"));
         _ee._Km = _Fj(_ly, "unlocked");
         console.log("_ee._Km", _ee._Km, _ly);
+        console.log("_ee._p", _ee._p, _se(91)._c6);
+        console.log("_se(global._Nd)._5r", _se(global._Nd)._5r);
+
         if (_ee.__p <= 0) {
-            // console.log("_ee._p")
-            _se(91)._c6 = 0 ? 0 : 0;
+            console.log("_ee._p", _ee._p, _se(91)._c6);
+            _se(91)._c6 = 0 ? 1 : 0;
         } else {
-            _se(91)._c6 = 1 ? 0 : 0;
+            _se(91)._c6 = 1 ? 1 : 0;
         }
         if (_ee.__p >= _se(global._Nd)._5r - 1) {
-            _se(93)._c6 = 0 ? 0 : 0;
+            _se(93)._c6 = 0 ? 1 : 0;
         } else {
-            _se(93)._c6 = 1 ? 0 : 0;
+            _se(93)._c6 = 1 ? 1 : 0;
         }
         _se(98)._c6 = _ee._Km;
         _se(92)._c6 = !(_ee._Km > 0.5) ? 1 : 0;
