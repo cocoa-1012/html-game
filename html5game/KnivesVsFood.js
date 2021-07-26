@@ -13214,14 +13214,15 @@ function _Xa(_ee, _fe) {
         _ee._Km = _Fj(_ly, "unlocked");
         console.log("_ee._Km", _ee._Km, _ly);
         if (_ee.__p <= 0) {
-            _se(91)._c6 = 0 ? 1 : 0;
+            // console.log("_ee._p")
+            _se(91)._c6 = 0 ? 0 : 0;
         } else {
-            _se(91)._c6 = 1 ? 1 : 0;
+            _se(91)._c6 = 1 ? 0 : 0;
         }
         if (_ee.__p >= _se(global._Nd)._5r - 1) {
-            _se(93)._c6 = 0 ? 1 : 0;
+            _se(93)._c6 = 0 ? 0 : 0;
         } else {
-            _se(93)._c6 = 1 ? 1 : 0;
+            _se(93)._c6 = 1 ? 0 : 0;
         }
         _se(98)._c6 = _ee._Km;
         _se(92)._c6 = !(_ee._Km > 0.5) ? 1 : 0;
@@ -13231,7 +13232,6 @@ function _Xa(_ee, _fe) {
                 _se(92)._zi = 1 ? 1 : 0;
                 _se(92)._Jv = 11;
             }
-            cookieSet("coins", _se(global._Jd)._Mm, 100);
         } else {
             {
                 _se(92)._Jv = 9;
