@@ -9,15 +9,6 @@ function FBInstantGames_LoadingBar(
   _current,
   _loadingscreen
 ) {
-  console.log(
-    "function FBInstantGames",
-    _graphics,
-    _width,
-    _height,
-    _total,
-    _current,
-    _loadingscreen
-  );
   if (!initialised) {
     console.log("FB Instant Games attempting to initialise");
     FBInstant.initializeAsync().then(function () {

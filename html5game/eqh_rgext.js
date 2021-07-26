@@ -2,7 +2,6 @@
 var callbacks = [];
 
 function callbackAdd(name, param1 = "", param2 = "", param3 = "") {
-  console.log("callbackAdd", name, param1, param2, param3);
   var c = {};
   c["name"] = name;
   c["param1"] = param1;
@@ -13,7 +12,6 @@ function callbackAdd(name, param1 = "", param2 = "", param3 = "") {
 }
 
 function callbacksExec() {
-  console.log("callbacksExec");
   var arrayLength = callbacks.length;
 
   if (arrayLength > 0) {
@@ -28,15 +26,11 @@ function callbacksExec() {
 
 // arg - string
 function RG_sfxHapticFeedback(arg) {
-  console.log("RG_sfxHapticFeedback", arg);
-
   window.NrgWebApi.sfxHapticFeedback(arg);
 }
 
 // initialize
 function RG_Init(onGameUpdatedStr, onStartGameIntroStr) {
-  console.log("RG_Init", onGameUpdatedStr, onStartGameIntroStr);
-
   function onGameUpdated(updateType, secondsLeft) {
     var gameState = RG_GetGameState();
     eval(
@@ -61,93 +55,67 @@ function RG_Init(onGameUpdatedStr, onStartGameIntroStr) {
 //Call this when all intro animations have been finished
 //and the game is ready to be started
 function RG_GameIntroFinished() {
-  console.log("RG_GameIntroFinished");
-
   // Notify the API that the game is ready to be started
   window.NrgWebApi.gameIntroFinished();
 }
 
 function RG_GetGameState() {
-  console.log("RG_GetGameState");
-
   return window.NrgWebApi.getGameState();
 }
 
 // Call window.NrgWebApi.loaded() once the game is fully loaded
 function RG_Loaded() {
-  console.log("RG_Loaded");
-
   window.NrgWebApi.loaded();
 }
 
 function RG_ScoreUpdate(score) {
-  console.log("RG_ScoreUpdate", score);
-
   // Report updated score
   window.NrgWebApi.reportScoreUpdate(score);
 }
 
 function RG_ReportGameResultGameExpired(score) {
-  console.log("RG_ReportGameResultGameExpired", score);
-
   // Report final score.
   // The second parameter is a JSOB object with key/values for any parameters you want to log to document the game result.
   window.NrgWebApi.reportGameResultGameExpired(score, {});
 }
 
 function RG_ReportGameResultGameEnded(score, reason) {
-  console.log("RG_ReportGameResultGameEnded", score, reason);
-
   // Report final score, in this example the player collided with an obstacle, so we pass "Collission" as reason in the third parameter
   // The second parameter is a JSOB object with key/values for any parameters you want to log to document the game result.
   window.NrgWebApi.reportGameResultGameEnded(score, {}, reason);
 }
 
 function RG_GameScreenFinished() {
-  console.log("RG_GameScreenFinished");
-
   // Notify the API that we finished showing the result and celebrations, and so we can now hide the Game screen and return to the NRG Game App.
   window.NrgWebApi.gameScreenFinished();
 }
 
 function RG_GetParam(paramName, defaultValue) {
-  console.log("RG_GetParam", paramName, defaultValue);
-
   return window.NrgWebApi.getParam(paramName, defaultValue);
 }
 
 var RGParamsObject = {};
 
 function RG_ReportParam(paramName, value) {
-  console.log("RG_ReportParam", paramName, value);
-
   RGParamsObject[paramName] = value;
 }
 
 function RG_ReportGameParams() {
-  console.log("RG_ReportGameParams");
-
   window.NrgWebApi.reportGameParameters(RGParamsObject);
 }
 
 function detectIPhoneX() {
-  console.log("detectIPhoneX");
-
   //return 1;
   return window.iphoneX;
 }
 
 function RG_RandomInt(name, mininclusive, maxexclusive) {
-  console.log("RG_RandomInt", name, mininclusive, maxexclusive);
-
   return window.NrgWebApi.getRandomInt(name, mininclusive, maxexclusive);
 }
 
 checkIPhoneX(window);
 
 function checkIPhoneX(window) {
-  console.log("checkIPhoneX", window);
-
   // Really basic check for the ios platform
   // https://stackoverflow.com/questions/9038625/detect-if-device-is-ios
   var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
@@ -174,16 +142,12 @@ function checkIPhoneX(window) {
 
   // Each time the device orientation changes, run this update function
   function update() {
-    console.log("update");
-
     notch();
     iphoneXChecker();
   }
 
   // Notch position checker
   function notch() {
-    console.log("notch");
-
     var _notch = "";
 
     if ("orientation" in window) {

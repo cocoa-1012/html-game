@@ -1,6 +1,5 @@
 // (key:string, defValue, ...rest)
 function dj_loading_value(key, defValue) {
-  console.log("dj_loading_value", key, defValue);
   var f = window.gml_Script_gmcallback_dj_loading,
     v = null;
   if (f) {
@@ -13,7 +12,6 @@ function dj_loading_value(key, defValue) {
   return v != null ? v : defValue;
 }
 function dj_loading_color(key, defValue) {
-  console.log("dj_loading_color", key, defValue);
   var v = dj_loading_value.apply(this, arguments);
   if (typeof v == "number") {
     v = ((v >> 16) & 0xff) | (v & 0xff00) | ((v & 0xff) << 16); // BGR -> RGB
@@ -24,13 +22,11 @@ function dj_loading_color(key, defValue) {
   return v;
 }
 function dj_loading_number(key, defValue) {
-  console.log("dj_loading_number", key, defValue);
   var v = dj_loading_value.apply(this, arguments);
   if (typeof v != "number") v = defValue;
   return v;
 }
 function dj_loading_string(key, defValue) {
-  console.log("dj_loading_string", key, defValue);
   var v = dj_loading_value.apply(this, arguments);
   if (typeof v != "string") v = defValue;
   return v;
@@ -42,7 +38,6 @@ dj_loading_logo.src = "html5game/" + dj_loading_string("logo_path", "load.png");
 var dj_loading_current = 0;
 ///
 function dj_loading_get_current() {
-  console.log("dj_loading_get_current");
   return dj_loading_current;
 }
 /// dj_loading_current = dj_loading_get_current():
@@ -50,7 +45,6 @@ function dj_loading_get_current() {
 var dj_loading_total = 0;
 ///
 function dj_loading_get_total() {
-  console.log("dj_loading_get_total");
   return dj_loading_total;
 }
 /// dj_loading_total = dj_loading_get_total():
@@ -58,7 +52,6 @@ function dj_loading_get_total() {
 var dj_loading_width = 0;
 ///
 function dj_loading_get_width() {
-  console.log("dj_loading_get_width");
   return dj_loading_width;
 }
 /// dj_loading_width = dj_loading_get_width():
@@ -66,7 +59,6 @@ function dj_loading_get_width() {
 var dj_loading_height = 0;
 ///
 function dj_loading_get_height() {
-  console.log("dj_loading_get_height");
   return dj_loading_height;
 }
 /// dj_loading_height = dj_loading_get_height():
@@ -145,7 +137,6 @@ function dj_loading(ctx, width, height, total, current, _) {
 }
 
 function dg_hide_loading() {
-  console.log("dg_hide_loading");
   if (loadingBg) {
     loadingBg.style.display = "none";
     loadingBg.style.visibility = "hidden";

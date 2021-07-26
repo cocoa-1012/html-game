@@ -13,7 +13,6 @@ function js_init(appBlurGmCallback) {
 }
 
 function js_browserLanguage() {
-  console.log("function js_browserLanguage");
   var lang = navigator.language;
 
   lang = lang.substr(0, 2);
@@ -22,25 +21,22 @@ function js_browserLanguage() {
 }
 //
 function js_trace(text) {
-  console.log("level", text);
+  console.log(text);
 }
 
 // SITELOCKS
 
 function js_iframed() {
-  console.log("function  js_iframed");
   if (window.self != window.top) return 1;
   else return 0;
 }
 
 function js_getParentDomain() {
-  console.log("function js_getParentDomain");
   return window.top.location.href;
 }
 
 function js_getDomainOfSubDomain() {
   //*** window.location.host is subdomain.domain.com
-  console.log("function js_getDomainOfSubDomain");
   var siteName;
   if (js_iframed()) siteName = window.top.location.host;
   else siteName = window.location.host;
@@ -62,7 +58,6 @@ function js_getDomainOfSubDomain() {
 /// EVAL
 
 function js_eval(code) {
-  console.log("function js_eval");
   eval(code);
 }
 
@@ -73,14 +68,12 @@ function js_set_document_body_color(newColor) {
 }
 
 function js_set_document_title(newTitle) {
-  console.log("function js_set_document_title", newTitle);
   document.title = newTitle;
 }
 
 /// INVISIBLE BUTTONS
 
 function js_CreateInvisibleButton(buttonID, link) {
-  console.log("function js_CreateInvisibleButton", buttonID, link);
   var btn = document.createElement("invisible_button");
 
   btn.id = buttonID;
@@ -105,16 +98,6 @@ function js_CreateInvisibleButton(buttonID, link) {
 }
 
 function js_UpdateInvisibleButton(buttonID, x1, y1, x2, y2, link, active) {
-  console.log(
-    "function js_UpdateInvisibleButton",
-    buttonID,
-    x1,
-    y1,
-    x2,
-    y2,
-    link,
-    active
-  );
   var btn = document.getElementById(buttonID);
 
   btn.link = link;
@@ -135,7 +118,6 @@ function js_UpdateInvisibleButton(buttonID, x1, y1, x2, y2, link, active) {
 }
 
 function js_DestroyInvisibleButton(buttonID) {
-  console.log("function js_DestroyInvisibleButton", buttonID);
   var btn = document.getElementById(buttonID);
   btn.parentNode.removeChild(btn);
 }

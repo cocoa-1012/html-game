@@ -3,7 +3,6 @@
 var preloadedInterstitial = null;
 
 function FBInstantGames_preloadInterestitialAd(placement_id, resultcallback) {
-  console.log("bqh_FBInstant");
   FBInstant.getInterstitialAdAsync(
     placement_id // Your Ad Placement Id
   )
@@ -36,7 +35,6 @@ function FBInstantGames_preloadInterestitialAd(placement_id, resultcallback) {
 
 // show
 function FBInstantGames_showInterestitialAd(resultcallback) {
-  console.log("bqh_FBInstant");
   if (preloadedInterstitial) {
     preloadedInterstitial
       .showAsync()
@@ -67,7 +65,6 @@ function FBInstantGames_showInterestitialAd(resultcallback) {
 var preloadedRewardedVideo = null;
 
 function FBInstantGames_preloadRewardedAd(placement_id, resultcallback) {
-  console.log("bqh_FBInstant");
   FBInstant.getRewardedVideoAsync(
     placement_id // Your Ad Placement Id
   )
@@ -99,7 +96,6 @@ function FBInstantGames_preloadRewardedAd(placement_id, resultcallback) {
 }
 
 function FBInstantGames_showRewardedAd(resultcallback) {
-  console.log("bqh_FBInstant");
   if (preloadedRewardedVideo) {
     preloadedRewardedVideo
       .showAsync()
@@ -128,7 +124,6 @@ function FBInstantGames_showRewardedAd(resultcallback) {
 }
 
 function FBInstantGames_share() {
-  console.log("bqh_FBInstant");
   //
 }
 
@@ -139,12 +134,10 @@ var loadedData = {};
 var keynamesToLoad = [];
 
 function FBInstantGames_addDataToLoad(datakeyname) {
-  console.log("bqh_FBInstant");
   keynamesToLoad.push(String(datakeyname));
 }
 
 function FBInstantGames_loadData(onloaddatacallback) {
-  console.log("bqh_FBInstant");
   FBInstant.player.getDataAsync(keynamesToLoad).then(function (data) {
     //copy retrieved values array
     keynamesToLoad.forEach(function (element) {
@@ -160,7 +153,6 @@ function FBInstantGames_loadData(onloaddatacallback) {
 }
 
 function FBInstantGames_getDataByKey(keyname, defaultValue) {
-  console.log("bqh_FBInstant");
   if (loadedData) {
     if (typeof loadedData[keyname] !== "undefined") {
       return loadedData[keyname];
@@ -173,19 +165,15 @@ function FBInstantGames_getDataByKey(keyname, defaultValue) {
 }
 
 function FBInstantGames_saveData(keyname, value) {
-  console.log("bqh_FBInstant");
   var obj = {};
   obj[keyname] = value;
 
-  FBInstant.player.setDataAsync(obj).then(function () {
-    console.log("data is saved");
-  });
+  FBInstant.player.setDataAsync(obj).then(function () {});
 }
 
 /////////////////////////////////////////////////
 
 function FBInstantGames_Initialise() {
-  console.log("bqh_FBInstant");
   FBInstant.initializeAsync().then(function () {
     // Start loading game assets here
     console.log("FBInstant initializeAsync completed");
@@ -196,7 +184,6 @@ function FBInstantGames_StartGame(
   onstartgamecompletecallback,
   onpausecallback
 ) {
-  console.log("bqh_FBInstant");
   FBInstant.startGameAsync().then(function () {
     // Retrieving context and player information can only be done
     // once startGameAsync() resolves
@@ -229,44 +216,35 @@ function FBInstantGames_StartGame(
 }
 
 function FBInstantGames_SetLoadProgress(percent) {
-  console.log("bqh_FBInstant");
   FBInstant.setLoadingProgress(percent);
 }
 
 function FBInstantGames_GetContextID() {
-  console.log("bqh_FBInstant");
   return FBInstant.context.getID();
 }
 
 function FBInstantGames_GetContextType() {
-  console.log("bqh_FBInstant");
   return FBInstant.context.getType();
 }
 
 function FBInstantGames_GetPlayerName() {
-  console.log("bqh_FBInstant");
   return FBInstant.player.getName();
 }
 function FBInstantGames_GetPlayerPic() {
-  console.log("bqh_FBInstant");
   return FBInstant.player.getPhoto();
 }
 function FBInstantGames_GetPlayerID() {
-  console.log("bqh_FBInstant");
   return FBInstant.player.getID();
 }
 function FBInstantGames_Quit() {
-  console.log("bqh_FBInstant");
   FBInstant.quit();
 }
 
 function FBInstantGames_GetPlatform() {
-  console.log("bqh_FBInstant");
   return FBInstant.getPlatform();
 }
 
 function FBInstantGames_GetLocale() {
-  console.log("bqh_FBInstant");
   return FBInstant.getLocale();
 }
 
@@ -276,7 +254,6 @@ function FBInstantGames_SetScore(
   extradata,
   callbackfunction
 ) {
-  console.log("bqh_FBInstant");
   FBInstant.getLeaderboardAsync(leaderboard)
     .then((leaderboard) => {
       console.log("leaderboard SetScore", leaderboard.getName());
@@ -295,7 +272,6 @@ function FBInstantGames_QueryLeaderboard(
   offset,
   callbackfunction
 ) {
-  console.log("bqh_FBInstant");
   FBInstant.getLeaderboardAsync(lboard)
     .then(function (leaderboard) {
       return leaderboard.getEntriesAsync(numentries, offset);
@@ -323,7 +299,6 @@ function FBInstantGames_QueryLeaderboardPlayerPosition(
   lboard,
   callbackfunction
 ) {
-  console.log("bqh_FBInstant");
   FBInstant.getLeaderboardAsync(lboard)
     .then(function (leaderboard) {
       return leaderboard.getPlayerEntryAsync();

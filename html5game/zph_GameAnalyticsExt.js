@@ -84,14 +84,6 @@ function addProgressionEventWithScore(
   progression3,
   score
 ) {
-  console.log(
-    "zph_GameAnalyticExt",
-    status,
-    progression1,
-    progression2,
-    progression3,
-    score
-  );
   gameanalytics.GameAnalytics.addProgressionEvent(
     parseInt(status),
     progression1,
@@ -162,6 +154,5 @@ function onStop() {
 }
 
 function onResume() {
-  console.log("onResume");
   gameanalytics.GameAnalytics.onResume();
 }
