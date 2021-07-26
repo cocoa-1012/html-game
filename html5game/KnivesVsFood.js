@@ -13211,7 +13211,7 @@ function _Xa(_ee, _fe) {
         var _ly = _T5(_ee, _fe, _ee.__p);
         _ee._hi(_Fj(_ly, "sprite"));
         _ee._Km = cookieGet(`tools${_ly}`) ? cookieGet(`tools${_ly}`) : _Fj(_ly, "unlocked");
-        cookieSet(`tools${_ly}`, _ee._Km, 100);
+        // cookieSet(`tools${_ly}`, _ee._Km, 100);
         console.log("_ee._Km", _ee._Km, _ly);
         console.log("_ee._p", _ee._p, _se(91)._c6);
         console.log("_se(global._Nd)._5r", _se(global._Nd)._5r);
