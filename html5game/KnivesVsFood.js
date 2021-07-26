@@ -13135,7 +13135,7 @@ function _Ta(_ee, _fe) {
         if (!(_Fj(_ly, "unlocked") > 0.5)) {
             if (_se(global._Jd)._Mm >= _Fj(_ly, "price")) {
                 {
-                    cookieSet(`tools${_ly}`, _ee._Km, 100);
+                    cookieSet(`tools${_ly}`, 1, 100);
                     _se(global._Jd)._Mm -= _Fj(_ly, "price");
                     cookieSet("coins", _se(global._Jd)._Mm, 100);
                     _yj(_ly, "unlocked", 1);
