@@ -7508,7 +7508,6 @@ function _R5(_ee, _fe, _ge, _he, _ie, _je) {
     _se(global._Nd)._5r++;
 }
 function _S5(_ee, _fe) {
-    console.log("_S5", _ee, _fe);
     _I2(_ee, _fe, 103);
     _R5(_ee, _fe, 36, 0, 0.46, 1);
     _R5(_ee, _fe, 40, 50, 0.43, 0.8);
@@ -7519,7 +7518,7 @@ function _S5(_ee, _fe) {
     _R5(_ee, _fe, 38, 50, 0.43, 0.8);
     _R5(_ee, _fe, 44, 100, 0.4, 1);
     _R5(_ee, _fe, 37, 150, 0.46, 1);
-    _R5(_ee, _fe, 42, 20000, 0.41, 1);
+    _R5(_ee, _fe, 42, 200, 0.41, 1);
 }
 function _T5(_ee, _fe, _ge) {
     return _se(global._Nd)._4r[~~_ge];
@@ -13213,6 +13212,7 @@ function _Xa(_ee, _fe) {
         var _ly = _T5(_ee, _fe, _ee.__p);
         _ee._hi(_Fj(_ly, "sprite"));
         _ee._Km = _Fj(_ly, "unlocked");
+        console.log("_ee._Km", _ee._Km);
         if (_ee.__p <= 0) {
             _se(91)._c6 = 0 ? 1 : 0;
         } else {
@@ -13231,8 +13231,6 @@ function _Xa(_ee, _fe) {
                 _se(92)._zi = 1 ? 1 : 0;
                 _se(92)._Jv = 11;
             }
-    console.log("_Xa");
-
             cookieSet("coins", _se(global._Jd)._Mm, 100);
         } else {
             {
