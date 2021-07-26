@@ -11370,6 +11370,7 @@ function _X8(_ee, _fe) {
                         if (_mx > 0.5) {
                             {
                                 _se(global._Jd)._Mm++;
+                                cookieSet("bestScr", _se(global._Jd)._Mm, 100);
                                 _B5(_rx, _ee, _rx.x, _rx.y, 75, 0, 0);
                                 _xe(_rx);
                                 __1(_rx, _ee, 1, 0);
@@ -13227,6 +13228,7 @@ function _Xa(_ee, _fe) {
                 _se(92)._zi = 1 ? 1 : 0;
                 _se(92)._Jv = 11;
             }
+            cookieSet("bestScr", _se(global._Jd)._Mm, 100);
         } else {
             {
                 _se(92)._Jv = 9;
@@ -13288,6 +13290,7 @@ function _5b(_ee, _fe) {
     {
         _H2(_ee, _fe);
         _se(_ee._0z)._Ch = _pg(_se(global._Jd)._Mm);
+        cookieSet("bestScr", _se(global._Jd)._Mm, 100);
     }
 }
 function _6b(_ee, _fe) {
