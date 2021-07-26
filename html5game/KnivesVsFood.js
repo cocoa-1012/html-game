@@ -13209,6 +13209,7 @@ function _Wa(_ee, _fe) {
 }
 function _Xa(_ee, _fe) {
     {
+        console.log("Test Xa");
         var _ly = _T5(_ee, _fe, _ee.__p);
         _ee._hi(_Fj(_ly, "sprite"));
         _ee._Km = _Fj(_ly, "unlocked");
