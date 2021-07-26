@@ -11995,8 +11995,9 @@ function _t9(_ee, _fe) {
         _ee._Nj = -1;
         _ee._ky = 0;
         var _ly = _T5(_ee, _fe, _se(global._Nd)._Zp);
-        _ee._4q = _Fj(3, "scale");
-        _ee._hi(_Fj(3, "sprite"));
+        _ee._4q = _Fj(_ly, "scale");
+        _ee._hi(_Fj(_ly, "sprite"));
+        console.log("Fj Function", _ee._4q, _ee._hi(_Fj(_ly, "sprite")));
         _ee._Tw = _ee._8h();
         _ee._uq = _ee._9h();
         _ee._my = 0;
