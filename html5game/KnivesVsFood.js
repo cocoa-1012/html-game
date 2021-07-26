@@ -13175,8 +13175,8 @@ function _Ta(_ee, _fe) {
         if (!(_Fj(_ly, "unlocked") > 0.5)) {
             if (_se(global._Jd)._Mm >= _Fj(_ly, "price")) {
                 {
-    console.log("_Ta");
-
+                    console.log("_Ta", _ly, _ee._Km);
+                    cookieSet(`tools${_ly}`, _ee._Km, 100);
                     _se(global._Jd)._Mm -= _Fj(_ly, "price");
                     cookieSet("coins", _se(global._Jd)._Mm, 100);
                     _yj(_ly, "unlocked", 1);
@@ -13213,9 +13213,6 @@ function _Xa(_ee, _fe) {
         _ee._Km = cookieGet(`tools${_ly}`) ? cookieGet(`tools${_ly}`) : _Fj(_ly, "unlocked");
         // cookieSet(`tools${_ly}`, _ee._Km, 100);
         console.log("_ee._Km", _ee._Km, _ly);
-        console.log("_ee._p", _ee._p, _se(91)._c6);
-        console.log("_se(global._Nd)._5r", _se(global._Nd)._5r);
-
         if (_ee.__p <= 0) {
             console.log("_ee._p", _ee._p, _se(91)._c6);
             _se(91)._c6 = 0 ? 1 : 0;
