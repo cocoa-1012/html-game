@@ -3966,6 +3966,7 @@ function _e3(_ee, _fe) {
     }
 }
 function _f3(_ee, _fe, _ge, _he) {
+    console.log("f3", _ee, _fe, _ge, _he);
     if (_se(global._Xc)._vj == "fbinstant") {
         {
             _Aj(_ge, _he);
