@@ -11235,7 +11235,7 @@ function _K8(_ee, _fe) {
 }
 function _L8(_ee, _fe) {
     console.log("EEE", _ee, _fe);
-    cookieSet("bestScr", 890, 100);
+    // cookieSet("bestScr", 890, 100);
     {
         _H2(_ee, _fe);
         _S5(_ee, _fe);
