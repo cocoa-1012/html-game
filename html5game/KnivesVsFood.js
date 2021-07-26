@@ -7519,7 +7519,7 @@ function _S5(_ee, _fe) {
     _R5(_ee, _fe, 38, 50, 0.43, 0.8);
     _R5(_ee, _fe, 44, 100, 0.4, 1);
     _R5(_ee, _fe, 37, 150, 0.46, 1);
-    _R5(_ee, _fe, 42, 200, 0.41, 1);
+    _R5(_ee, _fe, 42, 20000, 0.41, 1);
 }
 function _T5(_ee, _fe, _ge) {
     return _se(global._Nd)._4r[~~_ge];
