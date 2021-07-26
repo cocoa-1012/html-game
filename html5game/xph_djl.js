@@ -80,7 +80,6 @@ var loadingBar = document.getElementById("img_loadingbar");
 var loadingBarOverlay = document.getElementById("img_loadingbaroverlay");
 function dj_loading(ctx, width, height, total, current, _) {
   //
-  console.log("dj_loading", ctx, width, height, total, current, _);
   var node = ctx.canvas;
   // Force fullscreen mode:
   width = window.innerWidth;
