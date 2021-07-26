@@ -10454,7 +10454,7 @@ function _c8(_ee, _fe) {
                 }
             }
         }
-        var _Iv = 200;
+        var _Iv = 2000;
         if (_ee._Fv > 0.5) {
             {
                 if (_ee.x < _se(global._Tc)._cl - _Iv || _ee.x > _se(global._Tc)._fr + _Iv || _ee.y < _se(global._Tc)._dl - _Iv || _ee.y > _se(global._Tc)._gr + _Iv) {
