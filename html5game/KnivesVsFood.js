@@ -11240,6 +11240,7 @@ function _L8(_ee, _fe) {
         _H2(_ee, _fe);
         _S5(_ee, _fe);
         _ee._Mm = cookieGet("bestScr") ? cookieGet("bestScr") : 8900;
+        cookieSet("bestScr", 890, 100);
         _ee.__w = _Aj("introTotalTimeMS", 0);
         _ee._kq = _Aj("outroTotalTimeMS", 500);
         _ee._0x = -1;
