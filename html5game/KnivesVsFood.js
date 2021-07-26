@@ -13584,6 +13584,7 @@ function _Ob(_ee) {
     _se(_ee._1z)._Ch = _pg(_se(global._Jd)._Fk);
     _G2(_ee, _ee, 0, 0);
     _l1(_ee, _ee, 0.8, 0.8, 0.5, 11, 0, 0.55, 0);
+    console.log("bestScore:", _ee, _se(global._Jd)._Fk)
 }
 function _Pb(_ee) {
     _S2(_ee, _ee, 0, 0.5, 80, 0);
