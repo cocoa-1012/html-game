@@ -13292,9 +13292,6 @@ function _5b(_ee, _fe) {
     {
         _H2(_ee, _fe);
         _se(_ee._0z)._Ch = _pg(_se(global._Jd)._Mm);
-    console.log("_5b");
-
-        cookieSet("coins", _se(global._Jd)._Mm, 100);
     }
 }
 function _6b(_ee, _fe) {
