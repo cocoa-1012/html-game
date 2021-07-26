@@ -6,7 +6,6 @@ function cookieSet(argument0, argument1, argument2) {
 	argument1 = value
 	argument2 = exdays
 	*/
-  console.log("Entered cookie", argument0, argument1, argument2);
   try {
     var exdate = new Date();
     exdate.setDate(exdate.getDate() + argument2);
