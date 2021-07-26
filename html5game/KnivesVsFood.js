@@ -12011,6 +12011,7 @@ function _t9(_ee, _fe) {
         _ee._ny = 1;
     }
 }
+// around gaming
 function _u9(_ee, _fe) {
     console.log("u9");
     {
@@ -13175,6 +13176,7 @@ function _Xa(_ee, _fe) {
         _ee._Km = cookieGet(`tools${_ly}`) ? cookieGet(`tools${_ly}`) : _Fj(_ly, "unlocked");
         cookieSet("currentTool", _ly);
         console.log("currentTool", _ly);
+        console.log("currentTool1",_ee, _fe,_ee.__p);
         if (_ee.__p <= 0) {
             _se(91)._c6 = 0 ? 1 : 0;
         } else {
