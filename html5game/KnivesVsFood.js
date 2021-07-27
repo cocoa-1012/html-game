@@ -2530,6 +2530,7 @@ function _K1(_ee, _fe, _ge) {
     return !((_ge & 1) > 0.5);
 }
 function _L1(_ee, _fe, _ge, _he, _ie, _je, _ke) {
+    console.log('2535')
     var _Hf = _he / _ie;
     switch (_ge) {
         case 0:
@@ -6931,6 +6932,7 @@ function _F5(_ee, _fe, _ge) {
     _se(_Dj)._c6 = 1 ? 1 : 0;
 }
 function _G5(_ee, _fe, _ge) {
+    console.log('6935')
     var _tq = _ge;
     switch (_tq) {
         case 32:
@@ -11208,9 +11210,9 @@ function _L8(_ee, _fe) {
         _ee._0x = -1;
         _ee._1x = 0 ? 1 : 0;
         _ee._2x = 80;
-        _ee._Oq = 3;
+        _ee._Oq = 0;
         _ee._3x = 2800;
-        _ee._4x = 9;
+        _ee._4x = 4;
         _ee._5x = -110;
         _ee._6x = 370;
         _ee._7x = 25;
@@ -11219,7 +11221,7 @@ function _L8(_ee, _fe) {
         _ee._wq = 5;
         _ee._vq = 10;
         _ee._9x = 3;
-        _ee._ax = 3;
+        _ee._ax = 0;
         _ee._bx = 0 ? 1 : 0;
         _ee._cx = -1;
         _ee._dx = 4;
@@ -11237,6 +11239,7 @@ function _L8(_ee, _fe) {
         _ee._hx[~~1] = 16777215;
         _ee._hx[~~2] = 65514;
         _ee._hx[~~3] = 16776192;
+        console.log("TETETE", _ee)
     }
 }
 function _N8(_ee, _fe) {
@@ -13176,7 +13179,7 @@ function _Xa(_ee, _fe) {
         _ee._Km = cookieGet(`tools${_ly}`) ? cookieGet(`tools${_ly}`) : _Fj(_ly, "unlocked");
         cookieSet("currentTool", _ly);
         console.log("currentTool", _ly);
-        console.log("currentTool1",_ee, _fe,_ee.__p);
+        console.log("currentTool",_ee, _fe,_ee.__p);
         if (_ee.__p <= 0) {
             _se(91)._c6 = 0 ? 1 : 0;
         } else {
@@ -48582,7 +48585,8 @@ function _ao2() {
         this._Tw1 = _hM;
     }
     var _8p2 = (function () {
-            function _KW(_wB) {
+        function _KW(_wB) {
+            console.log('48588')
                 switch (_66) {
                     case 3 === _wB:
                         return [257, _wB - 3, 0];
@@ -48655,6 +48659,7 @@ function _ao2() {
         _9p2 = _3s1 ? new Uint32Array(_8p2) : _8p2;
     function _QK1(_KW, _hM) {
         function _56(_wB, _56) {
+            console.log('48661')
             var _1D = _wB._Tw1,
                 _hM = [],
                 e = 0,
