@@ -4444,7 +4444,7 @@ function _R3(_ee, _fe, _ge, _he, _ie, _je, _ke) {
     global._hd = _ke;
     if (_C3(_ee, _fe) > 0.5) {
         {
-            dg_hide_loading();
+            // dg_hide_loading();
             js_init("gmcallback_onappblur");
         }
     } else {
