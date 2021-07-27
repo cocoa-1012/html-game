@@ -12016,7 +12016,6 @@ function _t9(_ee, _fe) {
 }
 // around gaming
 function _u9(_ee, _fe) {
-    console.log("u9");
     {
         _H2(_ee, _fe);
         if (_P5(_ee, _fe, 79) > 0.5 && !(_ee._3q > 0.5)) {
