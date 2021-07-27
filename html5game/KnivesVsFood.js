@@ -11240,7 +11240,6 @@ function _L8(_ee, _fe) {
         _ee._hx[~~1] = 16777215;
         _ee._hx[~~2] = 65514;
         _ee._hx[~~3] = 16776192;
-        console.log("TETETE", _ee)
     }
 }
 function _N8(_ee, _fe) {
@@ -13133,8 +13132,7 @@ function _Ra(_ee, _fe) {
     {
         _H2(_ee, _fe);
         // _ee.__p = _se(global._Nd)._Zp;
-        _ee.__p = 3;
-        console.log("_Ra", _se(global._Nd)._Zp);
+        _ee.__p = cookieGet("currentTool") ? cookieGet("currentTool") : 0;
         _ee._Km = 0 ? 1 : 0;
         _Jk(_ee, _fe, 3);
     }
@@ -13181,7 +13179,6 @@ function _Xa(_ee, _fe) {
         _ee._Km = cookieGet(`tools${_ly}`) ? cookieGet(`tools${_ly}`) : _Fj(_ly, "unlocked");
         cookieSet("currentTool", _ly);
         console.log("currentTool", _ly);
-        // console.log("currentTool",_ee, _fe,_ee.__p);
         if (_ee.__p <= 0) {
             _se(91)._c6 = 0 ? 1 : 0;
         } else {
