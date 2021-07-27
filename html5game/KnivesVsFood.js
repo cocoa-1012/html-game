@@ -13132,7 +13132,8 @@ function _Qa(_ee, _fe) {
 function _Ra(_ee, _fe) {
     {
         _H2(_ee, _fe);
-        _ee.__p = _se(global._Nd)._Zp;
+        // _ee.__p = _se(global._Nd)._Zp;
+        _ee.__p = 3;
         console.log("_Ra", _se(global._Nd)._Zp);
         _ee._Km = 0 ? 1 : 0;
         _Jk(_ee, _fe, 3);
@@ -13180,7 +13181,7 @@ function _Xa(_ee, _fe) {
         _ee._Km = cookieGet(`tools${_ly}`) ? cookieGet(`tools${_ly}`) : _Fj(_ly, "unlocked");
         cookieSet("currentTool", _ly);
         console.log("currentTool", _ly);
-        console.log("currentTool",_ee, _fe,_ee.__p);
+        // console.log("currentTool",_ee, _fe,_ee.__p);
         if (_ee.__p <= 0) {
             _se(91)._c6 = 0 ? 1 : 0;
         } else {
@@ -48587,7 +48588,6 @@ function _ao2() {
     }
     var _8p2 = (function () {
         function _KW(_wB) {
-            console.log('48588')
                 switch (_66) {
                     case 3 === _wB:
                         return [257, _wB - 3, 0];
